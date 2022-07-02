@@ -9,7 +9,7 @@
 - <a href="#AWS">Learn How to Deploy your web applications with Cloud Provider (AWS)</a>
 - <a href="#serverless">Learn How to Make serverless web applications</a>
 
-<img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20All%20Courses-%2B231h-blue">
+<img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20All%20Courses-%2B246h-blue">
 <br>
 
 > Note click on the name of the course to see its repository that contains projects, challenges and certificates
