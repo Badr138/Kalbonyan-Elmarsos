@@ -50,21 +50,21 @@
 <br />
 - # Programming Foundations series from Linkdin Learning
 
-    - [X] ` Done` ` 2h 55m ` - 12 - [Git Essential Training: The Basics](Linkedin-Learning/-12-Git-Essential-Training-The-Basics/)
-    - [X] ` Done` ` 4h 29m ` - 13 - [CSS Essential Training](Linkedin-Learning/-13-CSS-Essential-Training/)
-    - [X] ` Done` ` 0h 58m ` - 14 - [CSS Design Systems and Architectures](Linkedin-Learning/-14-CSS-Design-Systems-and-Architectures/)
-    - [X] ` Done` ` 0h 42m ` - 15 - [CSS Display](Linkedin-Learning/-15-CSS-Display/)
-    - [X] ` Done` ` 1h 26m ` - 16 - [CSS Selectors](Linkedin-Learning/-16-CSS-Selectors/)
-    - [X] ` Done` ` 2h 32m ` - 17 - [Responsive Layout](Linkedin-Learning/-17-Responsive-Layout/)
-    - [X] ` Done` ` 2h 45m ` - 18 - [HTML Essential Training](Linkedin-Learning/-18-HTML-Essential-Training/)
-    - [X] ` Done` ` 2h 42m ` - 19 - [Emmet Fast and Efficient Web Coding](Linkedin-Learning/-19-Emmet-Fast-and-Efficient-Web-Coding/)
-    - [X] ` Done` ` 3h 31m ` - 20 - [Getting Started as a Full Stack Web Developer](Linkedin-Learning/-20-Getting-Started-as-a-Full-Stack-Web-Developer/)
-    - [X] ` Done` ` 3h 8m ` - 21 - [Programming Foundations Real World Examples](Linkedin-Learning/-21-Programming-Foundations-Real-World-Examples/)
-    - [X] ` Done` ` 0h 55m ` - 22 - [Search Techniques for Web Developers](Linkedin-Learning/-22-Search-Techniques-for-Web-Developers/)
-    - [X] ` Done` ` 1h 3m ` - 23 - [Succeeding in Web Development Full-Stack and Front-End](Linkedin-Learning/-23-Succeeding-in-Web-Development-Full-Stack-and-Front-End/)
-    - [X] ` Done` ` 1h 49m ` - 24 - [User Experience for Web Design](Linkedin-Learning/-24-User-Experience-for-Web-Design/)
-    - [X] ` Done` ` 0h 58m ` - 25 - [Web Programming Foundations](Linkedin-Learning/-25-Web-Programming-Foundations/)
-    - [X] ` Done` ` 0h 57m ` - 26 - [AWS and React: Creating Full-Stack Apps](Linkedin-Learning-26-AWS_and_React_Creating_Full-Stack_Apps//)
+    - [X] ` Done` ` 2h 55m ` - 12 - [Git Essential Training: The Basics](01-Linkedin-Learning/-12-Git-Essential-Training-The-Basics/)
+    - [X] ` Done` ` 4h 29m ` - 13 - [CSS Essential Training](01-Linkedin-Learning/-13-CSS-Essential-Training/)
+    - [X] ` Done` ` 0h 58m ` - 14 - [CSS Design Systems and Architectures](01-Linkedin-Learning/-14-CSS-Design-Systems-and-Architectures/)
+    - [X] ` Done` ` 0h 42m ` - 15 - [CSS Display](01-Linkedin-Learning/-15-CSS-Display/)
+    - [X] ` Done` ` 1h 26m ` - 16 - [CSS Selectors](01-Linkedin-Learning/-16-CSS-Selectors/)
+    - [X] ` Done` ` 2h 32m ` - 17 - [Responsive Layout](01-Linkedin-Learning/-17-Responsive-Layout/)
+    - [X] ` Done` ` 2h 45m ` - 18 - [HTML Essential Training](01-Linkedin-Learning/-18-HTML-Essential-Training/)
+    - [X] ` Done` ` 2h 42m ` - 19 - [Emmet Fast and Efficient Web Coding](01-Linkedin-Learning/-19-Emmet-Fast-and-Efficient-Web-Coding/)
+    - [X] ` Done` ` 3h 31m ` - 20 - [Getting Started as a Full Stack Web Developer](01-Linkedin-Learning/-20-Getting-Started-as-a-Full-Stack-Web-Developer/)
+    - [X] ` Done` ` 3h 8m ` - 21 - [Programming Foundations Real World Examples](01-Linkedin-Learning/-21-Programming-Foundations-Real-World-Examples/)
+    - [X] ` Done` ` 0h 55m ` - 22 - [Search Techniques for Web Developers](01-Linkedin-Learning/-22-Search-Techniques-for-Web-Developers/)
+    - [X] ` Done` ` 1h 3m ` - 23 - [Succeeding in Web Development Full-Stack and Front-End](01-Linkedin-Learning/-23-Succeeding-in-Web-Development-Full-Stack-and-Front-End/)
+    - [X] ` Done` ` 1h 49m ` - 24 - [User Experience for Web Design](01-Linkedin-Learning/-24-User-Experience-for-Web-Design/)
+    - [X] ` Done` ` 0h 58m ` - 25 - [Web Programming Foundations](01-Linkedin-Learning/-25-Web-Programming-Foundations/)
+    - [X] ` Done` ` 0h 57m ` - 26 - [AWS and React: Creating Full-Stack Apps](01-Linkedin-Learning/-26-AWS_and_React_Creating_Full-Stack_Apps/)
     <br />
 
 <img src="https://img.shields.io/badge/Total%20Number%20Of%20Hours%20For%20This%20Courses-31h%2017m-blue">
