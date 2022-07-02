@@ -1,0 +1,24 @@
+1- Which page will visitors most likely be directed to from a search engine?
+
+- Answer: the category pages
+Category pages, when structured correctly, hold the most keywords that search engines will recognize.
+
+2- Which of these statements about landing pages is FALSE?
+
+- Answer: Landing pages are multi-focused, bringing together all of your products into one page.
+Landing pages have a singular focus, generally on a specific promotion or product. Although multiple products may be displayed on a landing page, you should not try to include all of your products here.
+
+3- The image shows two ad campaigns, each with a different advertisement and landing page. What can you deduce from the findings? 
+
+- Answer: In the future, the best option is a combination of Campaign A's advertisement and Campaign B's landing page.
+More visitors came from the ads for Campaign A, but more visitors made purchases when they landed on Campaign B. Therefore, future ad campaigns should incorporate elements of both.
+
+4- _____ pages aggregate content from several different _____ pages into one location.
+
+- Answer: Category; detail
+You can reuse summaries from detail pages on category pages.
+
+5- What is the best way to help visitors compare things on a category page?
+
+- Answer: Emphasize the differences between items.
+Anticipate what differences your users will care about, and list those as attributes on category pages.

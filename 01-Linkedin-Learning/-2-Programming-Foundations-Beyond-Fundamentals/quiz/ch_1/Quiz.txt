@@ -1,0 +1,25 @@
+1- Which Python statement creates a dictionary?
+
+- Answer:  favorites = {
+  'fruit': 'mango',
+  'vegetable': 'parsnip',
+ }
+
+2- What is the first index value in a list?
+
+- Answer: Counting from zero is common in a lot of programming languages.
+
+3- Which is an advantage of using a collection?
+
+- Answer: indicates that multiple pieces of data are related
+By using a collection, the very structure of your code is indicating that multiple pieces of data are related.
+
+4- What type of collection is the colors variable in the following code?
+
+- Answer: list
+To create a list, you enclose the value in square brackets, and then for the collection, provide values separated by commas.
+
+5- Python requires that all values in a list must be of the same data type.
+
+- Answer: FALSE
+In Python, each item in a list can be of any data type--so you could combine strings, number, and other types of data in the same list.

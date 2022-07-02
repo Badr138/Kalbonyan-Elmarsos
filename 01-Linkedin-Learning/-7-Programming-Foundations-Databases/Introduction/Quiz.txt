@@ -1,0 +1,19 @@
+1- When you move data from an unstructured form to a structured form, what benefit do you gain?
+
+- Answer: all of these answers
+Simpy putting your data into an organized structure, like a spreadsheet or table, brings a lot of benefits.
+
+2- When you store data in a database, what is one advantage you get over a plain spreadsheet?
+
+- Answer: Rows of data can be associated with each other across tables.
+While some spreadsheets can simulate this capability with lookup functions, the ability to create relationships between tables is a core function of relational databases.
+
+3- What is one advantage of using a spreadsheet to store data?
+
+- Answer: It can help you see gaps in the data.
+When pieces of information are arranged in a consistent way, it becomes easier to see what information you have.
+
+4- The definition of how data in a database will be organized is called the _____.
+
+- Answer: schema
+The database's schema includes the information about the layout of tables and other information about the database itself.

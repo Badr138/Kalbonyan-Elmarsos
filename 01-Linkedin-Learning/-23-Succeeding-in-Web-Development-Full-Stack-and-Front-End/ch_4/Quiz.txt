@@ -1,0 +1,24 @@
+1- Why should you use a code editor rather than a plain text editor?
+
+- Answer: to enable faster code writing with fewer errors
+A code editor can check formatting, spelling, and provide documentation.
+
+2- You need to build interactive graphics for a new project. Which library would be most helpful?
+
+- Answer: D3.js
+D3.js makes it easier to build HTML and CSS from data.
+
+3- Why should you use a CDN?
+
+- Answer: to enable rapid response times regardless of location
+A CDN serves copies of your content from different locations across the world.
+
+4- Which language should you use to format server SQL data into a specialized display?
+
+- Answer: PHP
+There are alternatives that can also do the job, such as Node.js, .NET, and Ruby on Rails.
+
+5- Which service would you use to enable APIs to communicate securely?
+
+- Answer: OAuth
+OAuth lets APIs share a token to permit data exchange.

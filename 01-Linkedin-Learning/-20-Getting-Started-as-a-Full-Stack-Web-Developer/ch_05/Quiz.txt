@@ -1,0 +1,14 @@
+1- What must you do in the HTML file to make it "see" an external CSS stylesheet?
+
+- Answer: Add a line that looks something like <link rel="stylesheet" href="style.css">
+This line tells the HTML page where to find the external file that contains CSS styling code.
+
+2- To determine where to put the new reservation form, what two steps were demonstrated?
+
+- Answer: 1. Try out locations with the browser's developer tools; 2. Test the selected location by changing text in a code editor.
+The demonstration first used the browser's developer tools to find a location, then tested it by putting text in the source code through a code editor.
+
+3- inputDate = new Date() is an example of __
+
+- Answer: object-oriented programming
+Object oriented programming lets you base a variable (here, `inputDate`) on a template-like "class" (`Date()`).

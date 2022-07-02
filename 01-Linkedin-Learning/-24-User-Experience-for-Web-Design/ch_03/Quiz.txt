@@ -1,0 +1,94 @@
+1- What function do navigation elements provide users, beyond helping them move around the site?
+
+- Answer: They should help users understand where they are on the site.
+Visitors use navigation elements to determine where they are on the site, and to find relevant information.
+
+2- If the content on your site relies heavily on verbs, which type of navigation structure should you consider using?
+
+- Answer: task-based
+For example, verbs such as 'withdraw', 'deposit', and 'invest' would fit the task-based navigation structure of a bank's site.
+
+3- Which of these scenarios is inconsistent with Fitts' law?
+
+- Answer: The most important user elements are placed in the bottom-left corner of the screen.
+Remember, users tend to move from top-left to bottom-right, meaning important elements should be located along this axis.
+
+4- Which concept suggests that the corners of the screen might be the best position for a clickable object?
+
+- Answer: Fitts' law
+Fitts' law states that it is faster to hit large targets closer to you than small targets farther away.
+
+5- Navigation information, such as main menus, breadcrumbs, and related links, all offer visitors _____.
+
+- Answer: clues as to what else the site offers
+It is important that visitors be able to quickly orient themselves, so they can find what they need if it is not on their landing page.
+
+6- Navigation menus usually appear as tabs across the top of the page, or as a left-sided column list. How might you choose the best option for your site?
+
+- Answer: You should choose based on the number of items you have. If you have only a few menu items, use tabs at the top.
+Including many menu items as tabs at the top of the page could get cluttered, so consider placing them in a left-sided column.
+
+7- What should you do when you have more menu items than the 'seven plus or minus two' rule suggests?
+
+- Answer: group the items into similar chunks and place dividers between them
+Dividing menu items into smaller, more digestible pieces makes your site more accessible.
+
+8- Working out how you want your content arranged is key to building your navigation structure. What are three ways to categorize content in your menus? 
+A.  by task (balance, save, plan, invest, etc.)
+B.  by time (most recent, oldest, etc.)
+C.  by audience (home user, business owner, public sector, etc.)
+D.  by category (music genre, sport type, etc.)
+E.  by color theme (primaries, secondaries, etc.)
+
+- Answer: A, C, D
+These are three different approaches to information architecture. Remember, above all else, your content needs to make sense to users.
+
+9- What is one way to improve the functionality of fly-out and drop-down menus?
+
+- Answer: incorporate some degree of lag
+Although it may sound counter-intuitive, incorporating lag means menus will remain visible when visitors are moving their mouse.
+
+10- If you arrange your site map differently from the site navigation, what must you keep in mind?
+
+- Answer: You must remember to update the site map when content is added or removed.
+When the navigation and the site map are different, you must remember to update the site map after changes to content.
+
+11- When designing your site, what is a good rule to keep in mind?
+
+- Answer: Menus should be no longer than nine items.
+This is not a strict rule, but generally, it will be hard for users to interpret menu items if there are more than nine options. If you do have more than nine, consider breaking them into sub-categories so they are more digestible.
+
+12- Typically, the _____ is the last place visitors will turn to to locate information.
+
+- Answer: site map
+Visitors will only turn to the site map once they have exhausted the navigation and search options.
+
+13- How do visitors typically respond to small search boxes on a site?
+
+- Answer: They enter shorter queries.
+If you anticipate users making longer search queries, you may want to increase the size of the search bar.
+
+14- Where are search bars typically located on websites?
+
+- Answer: the top right-hand corner of the page
+This is an element of standard design. Since this is widely accepted as the proper location, visitors will be confused if your search bar is located somewhere else.
+
+15- If you want to make an image clickable as a link, how should it be identifiable as a clickable element?
+
+- Answer: Hovering the cursor over the image should change the cursor to a hand or some nonstandard cursor.
+There needs to be a visible change in an element when you hover over it with your mouse.
+
+16- What does 'Fitts' Law' state?
+
+- Answer: It is faster to hit larger targets that are closer to you than smaller targets farther from you.
+Keep this in mind when designing menus, buttons, or any feature of your site that requires visitors to click.
+
+17- What are breadcrumbs?
+
+- Answer: a navigation tool that shows the path back to the homepage
+Breadcrumbs help users identify where they are in a hierarchy. Keep in mind, they are only a secondary navigation tool.
+
+18- What do the different colors indicate about the links in this image? 
+
+- Answer: The red links indicate where the user has been on the site.
+Standard practice is to have unvisited links underlined in blue text, and visited links either purple or red.

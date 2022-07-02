@@ -1,0 +1,29 @@
+1- When simplifying your site's design, what question should you ask yourself?
+
+- Answer: Is each element on the page helping or hindering visitors?
+All elements of the site should be relevant to visitors.
+
+2- Visitors to your site rely on _____ to know where they've been and what areas to explore next.
+
+- Answer: consistent naming
+Your word choice should be consistent across your site.
+
+3- How should you design your main menu?
+
+- Answer: Keep the main menu in the same place for consistency.
+The main menu should be visible, and allow visitors to navigate easily to other pages on the site.
+
+4- Which statement most accurately describes simple design?
+
+- Answer: Every element should help tell the story.
+Elements that do not contribute to the story should be removed. Remember, simplification is not a simple process.
+
+5- Which statement about consistent web design is TRUE?
+
+- Answer: All of these answers are true of consistent web design.
+These are several key points about consistent web design.
+
+6- What might you use standard design elements that appear on other major sites?
+
+- Answer: Standard design is supported by standard web objects.
+Users get a better experience, regardless of their browser, when standard web objects are used.

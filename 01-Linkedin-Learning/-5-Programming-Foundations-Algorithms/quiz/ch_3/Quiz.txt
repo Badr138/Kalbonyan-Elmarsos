@@ -1,0 +1,32 @@
+1- Which is the defining property of a recursive function?
+
+- Answer: It calls itself.
+
+2- What would the following code return for efun(8)?
+def efun(num):
+  if num==0:
+  return 1
+  else:
+  return num * efun(num-2)
+
+- Answer: 384
+
+3- In the following recursion, what is the breaking condition?
+function countup(x) {
+  if (x == 128)
+  return
+ else
+  countup(x+1)
+ }
+
+- Answer: if (x == 128)
+
+4- How is recursion implemented in functions?
+
+- Answer: A function calls itself from within its own code.
+With recursion, a function calls itself from within its own code. This is useful for creating a loop where the same logic is required with each execution.
+
+5- What happens when executing a return statement in a recursive function?
+
+- Answer: The program returns to the statement after the function call was made.
+The program returns to the statement after the function call was made. If there is no statement, the program exits the function.

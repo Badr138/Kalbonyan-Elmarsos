@@ -1,0 +1,14 @@
+1- Why is web or browser programming broken up into three parts?
+
+- Answer: to be resilient to changes in technology
+Web pages should be forward-compatible.
+
+2- Which is the most powerful and fragile of the browser programming languages?
+
+- Answer: JavaScript
+JavaScript can perform complex logic, but this can get a user into trouble.
+
+3- What happens when HTML is broken because of a bug in the code?
+
+- Answer: The browser guesses what you meant, and does its best to fix the bug itself.
+Browsers were built on the understanding that things can go wrong, and are extremely forgiving.

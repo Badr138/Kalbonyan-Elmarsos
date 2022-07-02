@@ -1,0 +1,55 @@
+1- What is the difference between git diff and git diff --staged?
+
+- Answer: git diff compares the changes to working directory files to the staging index, while git diff --staged compares staged files to the repository versions.
+Adding the --staged option to the git diff command changes which tree's files are analyzed in the diff.
+
+2- Which of these methods is best to deal with a file called this_file.txt that should NOT be deleted but should no longer be referenced when git status is used?
+
+- Answer: Move this_file.txt from the project directory and use git rm this_file.txt to remove the file.
+Though it's possible to instruct Git to ignore a file in the project directory, moving a file from the directory will result in a prompt from git status to remove the file with git rm, and executing this instruction means the file will no longer be tracked or noticed by Git.
+
+3- How is staging an edited file different from staging a new file?
+
+- Answer: Both require git add to stage them.
+git add will stage any file, regardless of the kind of change it has created in the repository.
+
+4- If the output of git status reveals that file file1.php is untracked, what is true about the file?
+
+- Answer: There will be no record of further changes made on file1.php.
+Until the file has been staged with git add, changes will not be recorded by Git.
+
+5- If a user must use git reset HEAD tabs.js to unstage tabs.js, which command likely created the need to reset the HEAD?
+
+- Answer: git add .
+If the file tabs.js must be unstaged, it was staged with either git add tabs.js or git add .. This might become necessary in situations where the user does not wish to add a file to the repository or even does not want the current changes in that file to be part of the next commit.
+
+6- The output of git status is the following text, the last line in green: Changes to be committed:
+ (use "git reset HEAD <file>..." to unstage)
+
+ deleted: file1.php
+
+- Answer: file1.php was deleted with an operating system tool rather than git rm file1.php
+Green text denoting a file deletion means this deletion has already been staged for the next commit. If a file is deleted without using git rm, the deletion notice from git status will be red.
+
+7- How does committing an edited file affect the Git architecture's trees?
+
+- Answer: The commit moves the file from the staging index to the repository.
+Just like adding a new file to the repository, committing the file moves it from the staging index to the repository.
+
+8- What is the most efficient way to rename a file in a repository?
+
+- Answer: Use git mv with the file name.
+git mv is the most efficient way to both move a file to a new location and rename the file.
+
+9- In which situation should you use git diff?
+
+- Answer: to observe specific changes from the original version of a file
+git diff displays only the lines that have changed between two versions of a file.
+
+10- What does the snippet of git diff output below signify? Assume these output lines are contiguous.
+- background: #78b210 url("bg.png");
++ background-color: #d0f0f6;
+
+- Answer: The edit changed the line by replacing the first line with the second.
+A line starting with a minus sign immediately followed by a line starting with a plus sign signifies a single line in the file has changed.
+

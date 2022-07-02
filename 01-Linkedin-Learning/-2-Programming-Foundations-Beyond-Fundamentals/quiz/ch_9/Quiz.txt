@@ -1,0 +1,14 @@
+1- What is it called when a compiler keeps track of which items in memory are no longer needed and deletes them automatically?
+
+- Answer: garbage collection
+Many common languages support garbage collection, which allows you to create programs without thinking about managing memory.
+
+2- What's an advantage of using multithreading?
+
+- Answer: It can make your computer programs faster and more responsive.
+Structuring your code to do multiple things at once can increase a program's speed and responsiveness.
+
+3- Which is the best description of what an algorithm is?
+
+- Answer: a set of instructions that describes how to get the exact result you want
+Computers don't know how to accomplish a multistep process without a programmer explaining step-by-step how to do it.

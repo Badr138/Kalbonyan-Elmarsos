@@ -1,0 +1,32 @@
+1- You want to add an image as the background to your responsive design. The important part of the image is its top-right corner. Which CSS rule should you add?
+
+- Answer: background-position: top right;
+
+2- What is one concern with using the CSS below on an image that is supposed to fill a container?
+background-size: cover; 
+
+- Answer: The image may be clipped.
+
+3- You need to add responsive CSS to your project. What is considered a bad practice in doing so?
+
+- Answer: Enclose all responsive CSS inside a @media query, placed at the top of your master CSS.
+
+4- What are the values missing from the viewport meta tag?
+<meta name="viewport" content="width=_____, initial-scale=_____">
+
+- Answer: device-width; 1.0
+
+5- For your site to work on two screen sizes, you create a base CSS for larger screens. For screens of 800px or less, you enclose another CSS section inside the media query below. Will this query work, and if not how would you fix it?
+@media (width: 800px) {}
+
+- Answer: No, change to @media (max-width: 800px) {}.
+
+6- What behavior does this CSS cause?
+max-width: 400px;
+width: 50%;
+
+- Answer: The content width will be 400px, or lower if the window width decreases below 800px.
+
+7- What is responsive web design?
+
+- Answer: the thought process behind using CSS to optimize site viewing experiences on any device

@@ -1,0 +1,34 @@
+1- What should every page on your site do for visitors?
+
+- Answer: Every page should clearly indicate what the site is about.
+Visitors will only start at your homepage if you have a lot of name recognition. Otherwise, they will start on a page from a search engine.
+
+2- Since users can enter your site on any page, it is important that every page contain _____.
+
+- Answer: all of these answers
+All of these elements should be included on every page.
+
+3- Which option accurately describes the hierarchy of webpages (from most general to most specific)?
+
+- Answer: category pages, sub-category pages, detail pages
+This is the correct order, from most general to most specific.
+
+4- Which statement about content that is 'below the fold' is TRUE?
+
+- Answer: Scrolling technologies are good enough that the majority of visitors can easily scroll down.
+Mouse wheels and touch screens allow for easy scrolling; before these, content below the fold may not have been seen.
+
+5- What is best practice when crafting your site's tagline?
+
+- Answer: Concisely describe the site in the tagline.
+A concise description will help search engines find your site, and help visitors know what your site is.
+
+6- If your visitors come in from a search engine, _____ will help them quickly work their way up or down the levels of content to find exactly what they need.
+
+- Answer: navigation components
+Navigation components can include things like breadcrumbs or related links.
+
+7- Which content layout style is represented in this image? 
+
+- Answer: sequential arrangement
+Sequential arrangement should use pagination for navigation, and you should provide a way to place all content on one page for printing

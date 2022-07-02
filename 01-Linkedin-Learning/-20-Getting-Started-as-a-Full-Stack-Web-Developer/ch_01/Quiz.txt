@@ -1,0 +1,14 @@
+1- Which of these is NOT a feature of coding in an online sandbox such as codepen.io?
+
+- It's the standard interface professional web developers use to create websites.
+This is not a feature of a code sandbox. The standard interface professional web developers use is the code editor.
+
+2- Which of these is necessary to code in a text editor such as NotePad++ or TextEdit?
+
+- Answer: You must save files in plain text format (i.e., without text styling).
+By saving files in plain text, you strip away styling information that would break your code, such as font and color.
+
+3- Which of these web browsers lacks developer tools, such as the ability to view a page's source code?
+
+- Answer: All of these web browsers have such developer tools.
+The process to access developer tools varies from browser to browser, but all major browsers have them.

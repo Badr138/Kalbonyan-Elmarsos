@@ -1,0 +1,14 @@
+1- Why aren't all possible methods made available to every object?
+
+- Answer: to avoid overloading computer memory with unneeded methods
+If all objects had access to all methods in the language, your programs would need more computer memory.
+
+2- When do you need to use an object-oriented approach to coding?
+
+- Answer: when you start building bigger projects with more complex code
+Object-oriented code is a strategy that helps you organize code when it starts to feel needlessly complex.
+
+3- What is the object-oriented programming term for something that an object can do?
+
+- Answer: a method
+Each object has behaviors, which are built using methods.

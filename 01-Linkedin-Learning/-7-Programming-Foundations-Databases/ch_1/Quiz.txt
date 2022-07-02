@@ -1,0 +1,70 @@
+1- A unique value _____.
+
+- Answer: occurs only once in a given column
+Unique values are useful because they never appear twice. If a value appears more than once in a given column, it's not unique in that column.
+
+2- A relationship connects two pieces of data in different _____ in the same _____.
+
+- Answer: tables; database
+Even though a relationship is concerned with individual rows, a relationship is defined as being between tables in the same database.
+
+3- Which is a good example of a candidate key?
+
+- Answer: an employee ID number
+Any piece of data that uniquely represents a row is a candidate key, and if you have a value that occurs in the data naturally, that's a natural key.
+
+4- How many SQL clauses are in this query?
+SELECT Width,Height FROM Shapes;
+
+
+- Answer: two
+Each keyword, SELECT and FROM, defines a single clause.
+
+5- In a database, what is a relation?
+
+- Answer: a set of attributes (columns) that describe information about specific instances (rows) of an entity
+You may also see the rows called "tuples."
+
+6- Which of these images indicates a row in a table?
+
+- Answer: This indicates a row, or a record, which contains information pertaining to one instance of an entity.
+
+7- What is the name of a key that consists of different fields taken together to act as a unique identifier?
+
+- Answer: composite key
+A composite key combines two or more fields to act as a unique identifier.
+
+8- Which ACID step requires that the database is updated when the transaction completes successfully?
+
+- Answer: durable
+Durability requires that data changed by the transaction is written to the database.
+
+9- When is an associative table useful?
+
+- Answer: when records need to be related in a many-to-many relationship
+An associative (or linking) table relates foreign keys from different tables to associate their records.
+
+10- In the ACID model, which term represents the fact that a transaction can't be divided into smaller parts?
+
+- Answer: atomic
+Even though you now know atoms can be broken down into smaller parts, the term atomic means that something can't be broken down into smaller pieces. Here, atomicity means that the transaction behaves as one single action.
+
+11- What would you use a relationship to connect?
+
+- Answer: a customer with their favorite table in the restaurant
+This would be a one-to-many relationship. For every one table, there could be many customers who prefer to sit at it. But one customer cannot have many favorite tables.
+
+12- SQL is _____.
+
+- Answer: the language you use to communicate with a database
+Structured Query Language is the most common language interacting with relational databases.
+
+13- What does the term transaction mean?
+
+- Answer: all of the steps for an action must be completed
+A transaction is a collection of steps that must all be completed in order for a change to be made to the database.
+
+14- In the acronym CRUD, what does "R" stand for?
+
+- Answer: read
+The letters stand for create, read, update, and delete. Good job!

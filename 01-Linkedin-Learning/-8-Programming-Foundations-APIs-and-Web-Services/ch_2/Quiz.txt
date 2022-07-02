@@ -1,0 +1,26 @@
+1- HATEOAS supports sending boolean fields along with state-related information.
+
+- Answer: FALSE
+The primary advantage of HATEOAS is to avoid sending boolean fields or state-related fields that require the client to interpret them and decide what action(s) can be taken next.
+
+2- How is the core principle of HATEOAS achieved?
+
+- Answer: publication of links
+
+3- RESTful APIs promote tight coupling.
+
+- Answer: FALSE
+RESTFul APIs promote loose-coupling. This simply means that the system should be designed so that changes and enhancements to web services don’t break clients that are already using them.
+
+4- What is the term used to describe data sent back and forth?
+
+- Answer: payload
+
+5- Resources can be manipulated using an unlimited set of operations.
+
+- Answer: FALSE
+Resources can only be manipulated using a fixed set of operations.
+
+6- What should the interaction between the client and server be?
+
+- Answer: stateless

@@ -1,0 +1,47 @@
+1- What command should you use to ensure all projects you work on have black and white output?
+
+- Answer: git config --global color.ui false
+Git's color.ui configuration is by default set to "auto", so it colorizes output to help users visually parse the output quickly, except when output is piped or redirected to a file. To turn colors off, you need only set color.ui to false for all output.
+
+2- Besides accessing a project's .git/config file, how can you change its contents?
+
+- Answer: git config
+Git config with no options will access the project-level config file.
+
+3- Besides using git help cherry-pick, how might you view the information for the cherry-pick command on Linux?
+
+- Answer: man git-cherry-pick
+The man page for git-cherry-pick is identical to the output from the git help cherry-pick command, since the help command is essentially an interface for the git man pages.
+
+4- What is the purpose of using git --version after Git's installation on a Windows system?
+
+- Answer: The command outputs the current version of Git, confirming a successful installation.
+Using any Git command after installation will confirm Git is installed, but requesting the current version of the tool is an easy way to confirm with minimal output and no need to set up a repository.
+
+5- A user is unsure of the version of Git installed. Which command should they use?
+
+- Answer: git --version
+The user might also be able to type simply git version to learn the installed version of Git.
+
+6- When installing Git on a Mac, if a user opens the disk image file and then clicks on the .pkg file, a warning will appear. How can the user install Git without encountering this warning?
+
+- Answer: Use the Ctrl key while clicking and then choose "Open with installer."
+Using the Control key will open a menu that allows the user to bypass the security warning to install Git.
+
+7- Assuming the following Git commands are available, what would you need to type in order to auto-complete "git pull"? patch-id
+prune
+pull
+push
+
+- Answer: git pul and [tab]
+Given these four options for Git commands, "pul" will complete the command with Git's autocomplete tool.
+
+8- Why is Git auto-completion useful?
+
+- Answer: It speeds up typing commands.
+Using the Tab button, auto-complete will complete a command based on what the user has already typed.
+
+9- Which is NOT a way to gain access to Git on a Mac?
+
+- Answer: Install Git with the terminal utility command install git.
+The terminal utility on a Mac does not have an install command. HomeBrew commands can be used on the terminal command line instead.

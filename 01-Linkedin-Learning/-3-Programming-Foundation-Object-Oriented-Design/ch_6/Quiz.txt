@@ -1,0 +1,72 @@
+1- Which relationship is a good candidate for superclass and subclass?
+
+- Answer: utensil-fork
+
+2- What does this line of Java code declare?
+public class Apple extends Fruit {
+
+- Answer: a new class Apple that is inherited from the class Fruit
+
+3- Why is the syntax for inheritance in C++ different from most other languages?
+
+- Answer: because a class can inherit from multiple levels in C++
+
+4- Which line of code will define a C# abstract class named School?
+
+- Answer: abstract class School {
+
+5- Which concept of object-oriented programming is displayed by using the "is a kind of" comparison between 2 classes?
+
+- Answer: inheritance
+
+6- A concrete class has no _____.
+
+- Answer: children
+
+7- Why would you create an abstract class, if it can have no real instances?
+
+- Answer: to avoid redundant coding in child classes
+
+8- An aggregation is a _____.
+
+- Answer: collection of objects
+
+9- What form of aggregation implies ownership, and that the lifetime of an object is dependent on another object's existence?
+
+- Answer: composition
+
+10- How are the contents of a composition different from those of an aggregation?
+
+- Answer: If a composition dies, the contents die.
+
+11- In Java, how would you define an interface named Box that contains two methods named Open and Close that don't accept or return any variables?
+
+- Answer: interface Box {
+	  void Open();
+	  void Close();
+
+12- What do most languages have in common for referring to a method defined in the parent class?
+
+- Answer: the use of super in the prefix to the method name
+The word `super` is used for the common need for code within a subclass, to call a method that was originally defined in the super class.
+
+13- Why should you use abstract and final in class definitions?
+
+- Answer: to better communicate intentions
+Their use makes the code easier to read and maintain.
+
+14- When is an interface used instead of an abstract class?
+
+- Answer: when you need to describe the capabilities of a class
+
+15- Which relationship between classes is referred to as a "has a" relationship?
+
+- Answer: aggregation
+
+16- Which representation is correct UML for the interface Edible?
+
+- Answer: <<interface>>
+	  Edible
+	  beEaten()
+We represent an interface using a box that looks similar to a class, and include a tag with double angle quotes to indicate an interface.
+

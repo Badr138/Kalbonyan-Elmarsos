@@ -1,0 +1,14 @@
+1- In the video's example, how did the index.html file start the program reserve.php?
+
+- Answer: The HTML page's FORM tag included the attribute action="reserve.php".
+The `action` attribute inside a `FORM` tag tell an HTML file what to do when the user clicks the Submit button.
+
+2- Which of these is true about both HTML (a page-description language) and JavaScript (a programming language)?
+
+- Answer: They can both change elements that appear on the page.
+Both HTML and JavaScript can change what's on a web page.
+
+3- JavaScript is like HTML and CSS in that:
+
+- Answer: it is interpreted in the browser
+JavaScript, HTML, and CSS are all interpreted in the web browser.

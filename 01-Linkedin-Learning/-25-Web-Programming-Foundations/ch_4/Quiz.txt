@@ -1,0 +1,25 @@
+1- What is the function of HTML?
+
+- Answer: To mark up each element in a document with a tag describing its function
+
+2- The "cascading" part of Cascading Style Sheets means CSS rules are applied from the top down.
+
+- Answer: TRUE
+The browser applies CSS rules from the top down giving the most weight to the lowest element in the document.
+
+3- What should happen when a visiting browser does not support JavaScript?
+
+- Answer: The content and all functionality is accessible.
+
+4- Where is the DOM?
+
+- Answer: In the browser, generated when the HTML document is loaded, and manipulated by JavaScript
+
+5- JavaScript only fires on events.
+
+- Answer: FALSE
+JavaScript can fire on events, but doesn't have to.
+
+6- For a website to work, it must be served from a web server.
+
+- Answer: Partially true: While a website can work in a non-server environment, many advanced features will not be available.

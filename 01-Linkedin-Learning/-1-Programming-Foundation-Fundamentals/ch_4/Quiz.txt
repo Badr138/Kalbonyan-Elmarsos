@@ -1,0 +1,54 @@
+1- With if-else statements, we will always execute one of the code blocks depending on the result of the condition test.
+
+- Answer: TRUE
+
+2- Which operator will you use to return true if two variables are different?
+
+- Answer: !=
+
+3- Which if-else statement will not produce this output?
+
+- Answer: num = 16
+ if num % 3 == 0:
+  print("is divisible by 3")
+ else:
+  print("is not divisible by 3")
+
+4- Any expression that breaks down to either true or false is called a conditional, or _____.
+
+- Answer: boolean expression
+
+5- This if-else statement is written in _____.
+
+- Answer: Ruby
+
+6- Which of these is not a relational operator?
+
+- Answer: =
+
+7- What is the issue with the following code?
+
+- Answer: The conditional statement is checking for equality.
+
+8- What is the output of this program?
+
+- Answer: The end
+
+9- Multiple statements grouped together are called a _____.
+
+- Answer: block
+
+10- Which code can you use to print if a test score is a pass or a fail?
+
+- Answer: if (score>=60):
+  print("passed")
+ else:
+  print("failed")
+
+11- What will the following condition print?
+
+- Answer: the absolute value of num
+
+12- What is the output of the following program?
+
+- Answer: All done

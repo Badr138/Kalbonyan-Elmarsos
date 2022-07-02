@@ -1,0 +1,100 @@
+1- What is the difference between object-oriented programming and procedural programming?
+
+- Answer: Procedural programming specifies a sequence of tasks, but object-oriented programming describes the properties of tools or items.
+In object-oriented programming, there are some elements of procedural programming in the description of objects.
+
+2- How does dynamic polymorphism differ from static polymorphism?
+
+- Answer: It uses overriding instead of overloading.
+Dynamic polymorphism creates a unique instance.
+
+3- What is overriding a method?
+
+- Answer: Creating a unique version of an inherited method.
+
+4- How are analysis and design different?
+
+- Answer: Analysis describes a problem; design describes a solution.
+
+5- What is the term for a visual representation of the classes in an application?
+
+- Answer: class diagram
+
+6- In addition to attributes and methods, what does a UML class diagram contain?
+
+- Answer: the class name
+
+7- How do object behaviors and attributes differ?
+
+- Answer: Attributes describe a state, but behaviors describe actions.
+
+8- You are designing a traffic simulation program. What is a possible attribute that you could use for a car object?
+
+- Answer: gas mileage
+
+9- Shonzu has gathered the requirements for a new solution, described the application he is going to build, and identified the main objects in the solution. What should he do next?
+
+- Answer: Describe object interactions.
+This will be essential for understanding behaviors.
+
+10- What is the purpose of encapsulation?
+
+- Answer: to protect an object from unwanted changes
+
+11- In addition to attributes and behaviors, which quality must a class possess?
+
+- Answer: a name
+
+12- In the following class diagram, what does lower() represent?
+TRIPOD
+height
+width
+angle
+raise()
+lower()
+point()
+fold()
+
+- Answer: a behavior
+Behaviors come at the end of a class diagram, and contain room for arguments.
+
+13- What is a benefit of using a programming language that has a large library?
+
+- Answer: Many classes are already defined and can be used without have to re-define them.
+
+14- In the following class diagram, what does height represent?
+TRIPOD
+height
+width
+angle
+raise()
+lower()
+point()
+fold()
+
+- Answer: an attribute
+Attributes are generally nouns, and are placed just below the title.
+
+15- We're using abstraction when we define a(n) _____.
+
+- Answer: class
+
+16- Focusing on the idea of a person instead of an individual is an example of what fundamental idea in object-oriented programming?
+
+- Answer: abstraction
+
+17- Steve is able to turn on and adjust his television even though he does not know how it works internally. This exemplifies which principle of object-oriented programming?
+
+- Answer: encapsulation
+
+18- Why is inheritance used when creating a new class?
+
+- Answer: to avoid redefining attributes and behaviors
+
+19- If an attribute is added to a superclass, what happens to all of the objects of the subclass?
+
+- Answer: Each subclass object automatically receives the additional attribute.
+
+20- Static polymorphism uses method _____.
+
+- Answer: overloading

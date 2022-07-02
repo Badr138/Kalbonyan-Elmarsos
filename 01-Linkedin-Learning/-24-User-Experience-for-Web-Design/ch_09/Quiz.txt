@@ -1,0 +1,29 @@
+1- All of these statements about online forms are true EXCEPT:
+
+- Answer: Forms provide you with a marketing opportunity that you should always take advantage of.
+It may be tempting to treat forms as marketing opportunities, but refrain from this temptation. Users will see through this, and will then be less likely to proceed.
+
+2- When is the best time to ask visitors to fill out forms on your site?
+
+- Answer: When they have already demonstrated interest in your products or services.
+If visitors are committing to buying from you (downloading a free trial, etc.), this is when a short form can be presented.
+
+3- Evaluate the web form in this image. What is the biggest problem with the form? 
+
+- Answer: It should not contain a 'Reset' button.
+The 'Reset' button causes users pain. If anything, a visibly differentiated cancel button should be used and spaced from 'Submit'.
+
+4- How should error messages be handled when users fill in forms?
+
+- Answer: catch the error and display it in-line with the field that needs attention
+This is the best practice, and fields needing attention are usually highlighted in red with an inline error message.
+
+5- Your website's forms use the style shown in this image, with form labels and form fields left-aligned. How could this form style be improved for readability? 
+
+- Answer: right-align the form fields, and right-align the text
+Right-aligning the form fields and labels makes it slightly easier for users to scan between the labels and associated fields.
+
+6- Forms should include all of the following EXCEPT:
+
+- Answer: fields that ask for zip codes so you can provide targeted ads
+This should not be one of your primary concerns. It's important to establish a connection with users before asking them to disclose personal information.

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+/* PRODUCT */
+.product {
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+
+/* Converse Chuck Taylor All Star Low Top */
+.product-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 15px;
+}
+
+/* PRODUCT INFORMATION */
+.price {
+  font-size: 24px;
+}
+
+.fs {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.sale {
+  background-color: #ec2f2f;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 7px 15px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+  /* width: 40px;
+  text-align: center; */
+}
+
+/* More Information .... */
+.more-info:link,
+.more-info:visited {
+  display: block;
+  color: black;
+  padding: 10px 0 20px;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.c-blue {
+  background-color: #2f6ee2;
+}
+
+.c-red {
+  background-color: #ec2f2f;
+}
+
+.c-yellow {
+  background-color: #f0bf1e;
+}
+
+.c-green {
+  background-color: #90cc20;
+}
+
+.c-brown {
+  background-color: #885214;
+}
+
+/* PRODUCT DETAILS */
+.details-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+.add-cart {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  border-top: 4px solid #000;
+}
+
+.add-cart:hover {
+  color: #000;
+  background-color: #fff;
+}

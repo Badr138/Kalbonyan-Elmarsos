@@ -1,0 +1,15 @@
+1- A QA engineer should have cross-functional skills.
+
+- Answer: TRUE
+
+2- When is the earliest point that a QA get involved in the software development lifecycle?
+
+- Answer: the plan phase
+
+3- How does a QA not typically collaborate with a developer?
+
+- Answer: writing code
+
+4- A QA engineer should only share their goals with their manager.
+
+- Answer: FALSE

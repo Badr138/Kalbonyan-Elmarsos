@@ -1,0 +1,31 @@
+1- Which of the following sorted datasets would be easiest for a user to understand?
+
+- Answer: a list of items that are ordered by price from lowest to highest
+Sorting data benefits a user by ordering it in a way that makes it easily understandable for users. A list from high to low is an example of a sorted list.
+
+2- How does a bubble sort find the largest value in a data set?
+
+- Answer: All value pairs are compared to each other until the largest is at the top.
+With a bubble sort, two values are compared to each other incrementally, the largest value is shifted until it is at the top.
+
+3- Which condition is true after the end of one recursion step in a quicksort?
+
+- Answer: The pivot element is placed at its correct array location.
+
+4- What method does a merge sort use to break down data and sort it?
+
+- Answer: It uses recursion to break down data into smaller sets in order to find the appropriate order.
+A merge sort uses recursion. It breaks down the data into smaller manageable sets. As it sorts the smaller sets, it gradually rebuilds and works its way up to the original full data set.
+
+5- What are present in bubble-sort codes that indicate their time complexity?
+
+- Answer: nested loops
+
+6- A programmer needs to organize a data set. How will a quick sort accomplish this?
+
+- Answer:It will use a pivot point and move items that are on the wrong side of the pivot value by using high and low index values.
+A quick sort sets a pit point to partition a data set. High and low index values are then used to rearrange data values that are on the "wrong" side of the pivot point.
+
+7- How does the required time for a merge sort grow with the size of the data set?
+
+- Answer: logarithmic-linear

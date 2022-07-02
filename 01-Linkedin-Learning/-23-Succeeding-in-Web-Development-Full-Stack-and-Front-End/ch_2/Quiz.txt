@@ -1,0 +1,19 @@
+1- Why would you use a transpiler for JavaScript?
+
+- Answer: to convert to an older JavaScript version
+Browser compatibility with the newest versions of JavaScript is not guaranteed.
+
+2- What is the difference between HTTPS and HTTP?
+
+- Answer: security
+HTTPS is more secure than HTTP.
+
+3- Why should all developers learn HTML?
+
+- Answer: It is critical to understanding the DOM.
+You must be able to understand HTML and the DOM in order to accomplish other tasks.
+
+4- What is the primary role of CSS?
+
+- Answer: layout
+CSS is essential to producing the user experience.

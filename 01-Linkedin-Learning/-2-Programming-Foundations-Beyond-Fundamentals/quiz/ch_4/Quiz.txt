@@ -1,0 +1,13 @@
+1- Creating a regular expression is usually pretty easy, no matter what the type of data you're trying to match.
+
+- Answer: FALSE
+Creating a regular expression can be a complex task. Fortunately regular expressions are already written for many common patterns, so you don't need to create complicated regular expressions right off the bat.
+
+2- What result would you expect from the following Python statement?
+
+- Answer: meow meow meow meow meow
+Multiplying a string by a number duplicates the string the specified number of times.
+
+3- What is the term for getting part of a string value?
+
+- Answer: slicing

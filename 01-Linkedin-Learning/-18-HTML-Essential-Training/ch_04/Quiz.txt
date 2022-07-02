@@ -1,0 +1,30 @@
+1- The navigation items in the image below are elements in an unordered list. How is the appearance of a navigation bar created? 
+
+- Answer: by using CSS
+CSS can change the way that a list and other objects are presented.
+
+2- Which HTML elements are commonly used in marking up navigation?
+
+- Answer: <nav>, <ul>, <li>, <a>
+Yes. There’s no single correct way to mark up navigation, but often developers use nav, ul, li, and a.
+
+3- What is wrong with the following code?
+<a href="Click Me">http://transferfink.com</a>
+
+- Answer: The positions of the link text and the link address have been interchanged.
+The code should actually read, ``` <a href="http://transferfink.com">Click Me</a> ```
+
+4- How do we make a basic link in HTML?
+
+- Answer: <a href="https://example.com">text to click</a>
+Yes, that’s the format for a link.
+
+5- Which address points to a different file than the others?
+
+- Answer: "/index.html"
+This looks for index.html in the root directory.
+
+6- When might we use a relative URL instead of an absolute URL?
+
+- Answer: when a website might be moved from a staging server to a production server
+Yes, that’s correct.

@@ -1,0 +1,24 @@
+1- Which statement about the complexity of text on your website is TRUE?
+
+- Answer: The use of short words, short paragraphs, and short pages help convey information.
+People typically read slower on screens and read only about 20% of the information on a page, so keep the content short.
+
+2- Which of these practices should you AVOID?
+
+- Answer: formatting links in the same way as general text
+This will only add confusion to your site and will bring users to unexpected pages.
+
+3- The heatmap in the image shows where readers on the web focus. What information does this provide web designers? 
+
+- Answer: The first paragraphs on the page get the most attention.
+Visitors view this content first, and will read more when they see the page has the information they need.
+
+4- Which statement most accurately describes the inverted pyramid style of writing on the web?
+
+- Answer: You should start with the conclusion.
+Give readers the conclusion first, so they know they are in the right place and will read until they reach the level of detail needed.
+
+5- You know that the 'About Us' page is your site's least visited page, but it's still important to include in your primary navigation structure. Taking what you know about how people read on the web, where might you place the 'About Us' menu on your homepage?
+
+- Answer: top-right corner of the main menu
+People tend to focus their attention on the left side of the screen. You should capitalize on this by placing your most important content here. The top-right corner can be used for items of secondary importance.

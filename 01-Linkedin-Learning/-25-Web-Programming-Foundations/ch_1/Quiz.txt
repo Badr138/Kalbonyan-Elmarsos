@@ -1,0 +1,25 @@
+1- What is a "resource"?
+
+- Answer: Any content found at the end of a URL
+
+2- All HTML documents are accessible.
+
+- Answer: FALSE
+Only correctly marked up HTML documents are accessible.
+
+3- What is style inheritance?
+
+- Answer: A style rule applied to an element is inherited by any child elements
+
+4- What is a DOM tree node?
+
+- Answer: An element in an HTML document
+
+5- HTML is a declarative markup language. What does this mean?
+
+- Answer: HTML markup describes the contents of the document without providing instructions on how to present or interact with that content.
+
+6- HTML documents can only be accessed through a web browser.
+
+- Answer: FALSE
+HTML is an open markup language. It can be accessed by any application that can read plain text. That includes, but is not limited to, a web browser.

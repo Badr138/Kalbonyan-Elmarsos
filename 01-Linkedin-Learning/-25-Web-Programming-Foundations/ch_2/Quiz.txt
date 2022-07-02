@@ -1,0 +1,15 @@
+1- What is your primary priority when writing an HTML document?
+
+- Answer: To write HTML markup so the content it supports is accessible to all people
+
+2- The structure of an HTML document should be based on the natural reading order of the content.
+
+- Answer: TRUE
+
+3- What is the purpose of metadata in an HTML document?
+
+- Answer: Provide the browser and applications accessing the content semantic information about its contents
+
+4- To make a feature in a your web project accessible, you need to change its design. What do you do?
+
+- Answer: Change the design. Accessibility is job number one.

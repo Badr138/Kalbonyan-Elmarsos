@@ -1,0 +1,75 @@
+1- If you want to create a compact image that can display in large sizes without pixelation, which should you choose?
+
+- Answer: SVG
+Scalable Vector Graphics can scale to massive sizes and still look neat, like they were built for it.
+
+2- Which code snippet makes correct use of <figure> and <figcaption>?
+
+- Answer: 
+<figure>
+<img src="https://figuresource.com/40289/alfonso.jpg" 
+  width="720" height="354" alt="The Gracious Host" >
+<figcaption> Alfonso serving pancakes </figcaption>
+</figure>
+The figure element includes or encapsulates the caption element and other graphical elements.
+
+3- Which version of the image in the following code would be the slowest to load?
+<img src="https://storage.net/40785/sunsetA.jpg" 
+alt="Beach at sunset" width = "512" height="128"
+srcset="https://storage.net/40785/sunsetB.jpg 1.5x,
+https://storage.net/40785/sunsetC.jpg 3x,
+https://storage.net/40785/sunsetD.jpg 2x"
+>
+
+- Answer: sunsetC.jpg
+The largest image loads the slowest.
+
+4- If you want to keep a caption with an image, which combination of elements lets you identify them as connected?
+
+- Answer: Surround the image with a figure element, and use the figcaption element inside of figure.
+<figure> is designed to contain a caption that will stay with your image.
+
+5- What is the most effective way to use bandwidth efficiently when sending images?
+
+- Answer: Create a set of options the browser can choose from using the srcset attribute.
+The srcset attribute lets the browser choose from options that fit the specific situation, minimizing bandwidth consumption while producing attractive results.
+
+6- What do you need to change to move from a resolution-based srcset to a width-based srcset?
+
+- Answer: Provide pixel measurements (w) instead of 1x, 2x, etc.
+Yes - setting the width explicitly changes srcset's behavior.
+
+7- What are the four attributes we want to include on every img element?
+
+- Answer: src, alt, height, width
+Yes. src is short for source, and links to the file. Alt provides an alternative text experience of the image. Height and width let the browser know how much space the image needs before the file is fetched, improving performance.
+
+8- Why should you spend effort optimizing image sources and corresponding display attributes?
+
+- Answer: to have the best compromise between image quality and download speed
+Bear in mind that there is no value in downloading data that will not be used.
+
+9- Why should you include the height and width specifications for all images?
+
+- Answer: to make the page layout more efficient
+The size of an image can be learned before download is complete.
+
+10- How do you create an image that changes content depending on the surrounding layout?
+
+- Answer: Nest img, source, and srcset information inside of a picture element.
+The <picture> element gives you the flexibility you need to change content as well as image size.
+
+11- Which format is best suited to handle complex drawings and logos?
+
+- Answer: SVG
+SVG is a vector graphics format for describing complex drawings.
+
+12- Why is it advantageous to utilize the picture element when using these images as sources? 
+
+- Answer: The images are cropped differently.
+It is convenient to use the picture element when aspect ratios and cropping change from one source to another.
+
+13- Why would you want to use the w specification in srcset instead of the x specification?
+
+- Answer: to consider both display density and window width when choosing the image source
+You can specify the width of the source image in the code.

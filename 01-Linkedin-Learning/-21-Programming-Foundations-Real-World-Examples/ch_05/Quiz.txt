@@ -1,0 +1,15 @@
+1- What does the 'index' method do?
+
+- Answer: searches a list for the first instance of a particular object
+
+2- You can use the 'index' and 'pop' methods to remove an object from a list. But what method will accomplish this more efficiently?
+
+- Answer: the 'remove' method
+
+3- For a list to be considered multidimensional, what must it contain?
+
+- Answer: other lists
+
+4- What's the key difference between a list and a tuple?
+
+- Answer: a tuple is immutable

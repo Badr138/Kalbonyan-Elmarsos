@@ -1,0 +1,118 @@
+1- What does the :active pseudo-class style?
+
+- Answer: :active styles the link after the link is clicked.
+":active" styles the link after it is clicked. This link state is rarely seen with modern internet speeds, but it is still available for styling.
+
+2- The :target pseudo-class is used for styling links that use the target attribute.
+
+- Answer: FALSE
+The ":target" pseudo-class may be used for styling in-page navigation.
+
+3- Which selector would select links that do not open in a new window?
+
+- Answer: a:not([target="_blank"])
+To select links that open in a new window, use the "target" attribute with a value of "_blank". Placing "a:not" in front of this means we're looking for links that don't have this attribute.
+
+4- Specify as many ways as possible to select item four below.
+<ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+</ul>
+
+- Answer: 
+li:nth-child(4)
+li:nth-of-type(4)
+li:nth-last-child(2)
+li:nth-last-of-type(2)
+":nth-of-type", "nth:child", "nth-last-child", and "nth-last-of-type" all apply here. Select the exact item you want by specifying the number from the top or bottom of the list as appropriate.
+
+5- Use a single selector to select the h1, p, div, and footer in this HTML:
+
+- Answer: section > *
+"h1", "p", "div", and "footer" are children of the "section" tag. Combining the parent-child and the universal selector will select these elements without selecting their children.
+
+6- Using :nth-child and :nth-of-type, specify as many ways as possible to select every other list item below, starting with the first.
+<ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+</ul>
+
+- Answer: 
+li:nth-child(odd)
+li:nth-of-type(odd)
+li:nth-child(2n-1)
+li:nth-of-type(2n-1)
+li:nth-child(2n+1)
+li:nth-of-type(2n+1)
+The keyword "odd" will select every other item starting with the first, as will the "2n-1" AND "2n+1" style of code.
+
+7- Given the below HTML, what will p:only-child select, and what will p:only-of-type select?
+<section>
+        <div>
+                <p>I am a paragraph.</p>
+        </div>
+        <p>I am also a paragraph.</p>
+</section>
+
+- Answer: p:only-child will select the 1st paragraph, while p:only-of-type will select both paragraphs.
+"p:only-child" is a fit for the first paragraph only. However, "p:only-of-type" fits both paragraphs, because the paragraph is the only of type inside the "div", and it is the only of type inside the "section".
+
+8- Which HTML fragments would match the selector div:empty?
+	A.   <div><p></p></div>
+	B.   <div></div>
+	C.   <div> <!-- a comment --></div>
+	D.   <div><!-- a comment --></div>
+
+- Answer: B, D
+The fragment in B has nothing in between the "<div>" tags, so this qualifies as empty. The fragment in D has no whitespace around the comment, so this is also considered empty. The whitespace in front of the tag in C and the paragraph tag in A disqualify these options as empty.
+
+9- Given the below HTML, select Paragraph 2.
+<section>
+        <div>Div 1</div>
+        <p>Paragraph 1</p>
+        <div>Div 2</div>
+        <p>Paragraph 2</p>
+        <div>Div 3</div>
+</section>
+
+-  Answer: p:last-of-type
+This selector selects any paragraph that is the last child of its type. In this case, it selects paragraph 2.
+
+10- Which of these items are pseudo-elements?
+	A.   :first-of-type
+	B.   :first-child
+	C.   :first-letter
+	D.   :first-line
+
+- Answer: C, D
+":first-letter" and ":first-line" are both pseudo-elements and are occasionally written with a single colon instead of a double colon. They are older pseudo-elements, established in CSS 2.1, before the double colon specification was developed.
+
+11- When writing the pseudo-classes that style link states, what is the correct order these should appear in your stylesheet to ensure a proper cascading effect?
+
+- Answer: 
+:link
+:visited
+:focus
+:hover
+:active
+Remember the mnemonic "Lord Vader Former Handle Anakin" to remember the right order for these pseudo-classes.
+
+12- The :checked pseudo-class applies to the following form elements: 
+	A.   radio buttons
+	B.   check boxes
+	C.   text input
+	D.   <option> within a <select> dropdown
+
+- Answer: A, B, D
+The ":checked" pseudo-class is associated with elements that can be checked or turned on. This includes radio buttons, check boxes, and the "<option>" tags within a "<select>" dropdown menu.
+
+13- The :required pseudo-class will perform error checking for required fields on a form without the addition of JavaScript.
+
+- Answer: FALSE
+The ":required" pseudo-class is helpful for accessibility reasons, but it will not ensure that fields are completed correctly before the form is submitted.

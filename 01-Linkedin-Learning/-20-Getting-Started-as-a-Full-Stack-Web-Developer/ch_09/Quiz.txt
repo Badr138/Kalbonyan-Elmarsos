@@ -1,0 +1,24 @@
+1- Which of these is an international standards organization?
+
+- Answer: The Internet Engineering Task Force (IETF)
+The IETF is recognized as the international standards organization that oversees such matters as domain names and internet protocols (e.g. HTTP).
+
+2- What CAN'T Wappalyzer tell you?
+
+- Answer: the total number of websites in the world that use a particular technology
+Wappalyzer only surveys a small portion of the world's websites. It doesn't know the technologies of websites it hasn't surveyed, and so can't give a total count of them.
+
+3- If you change a setting on your WordPress site, where will that change probably be stored?
+
+- Asnwer: in the site's database
+In a CMS, most settings and text content are stored in the site's database.
+
+4- Which of the following is NOT free software?
+
+- Answer: the Windows operating system
+The Windows operating system is "proprietary", not free: You as a user don't have rights typical of free software, such as the rights to modify and redistribute it.
+
+5- What's a disadvantage to using frameworks and libraries?
+
+- Answer: They add a dependency: Your website could stop working if a library or framework disappears.
+A frameworks or library that your website relies on must always be available, or your website could potentially break.

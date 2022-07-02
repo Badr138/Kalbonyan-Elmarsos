@@ -1,0 +1,11 @@
+1- A free-running While loop is an example of _____.
+
+- Answer: a polling routine
+
+2- If your While loop is running as a polling routine, what a good way to keep it from consuming too many CPU cycles? 
+
+- Answer: implement a time.sleep function
+
+3- In Python, event-driven programming can handle multiple events at the same time if you use the 'time' module.
+
+- Answer: FALSE

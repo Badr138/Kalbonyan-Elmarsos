@@ -1,0 +1,29 @@
+1- What would the command chmod g+x file.txt do?
+
+- Answer: grant execution permission to the group
+The `g` means "group" and the `x` means "execute", so this command would grant execution permission to the group.
+
+2- At its base, what does a terminal program do?
+
+- Answer: It connects you to a remote computer so you can type in commands on your webhost.
+A terminal program's main function is to connect you to a remote computer through a text-based interface.
+
+3- What does the Linux command ls do?
+
+- Answer: lists items in a directory
+`ls` is the Linux command that lists the contents of a directory.
+
+4- Which of these is a reasonably priced option for a beginning web developer?
+
+- Answer: a Virtual Private Server (VPS)
+A VPS typically costs between 10 and 50 US dollars per month, and provides enough power and flexibility for a beginning web developer.
+
+5- How does a computer know how to find a domain name (such as linkedin.com) at a specific IP address (such as 108.174.10.10)?
+
+- Answer: the Domain Name System (DNS)
+DNS converts requests for domain names into their corresponding IP addresses.
+
+6- Which of these is NOT a typical feature of a webhost?
+
+- Answer: a staff of professional web developers who will help fix your HTML
+The staff at a webhost manages the infrastructure -- servers, internet connections, and such -- but they won't typically help you with the content of your website.

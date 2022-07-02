@@ -1,0 +1,63 @@
+/*  contact form */
+body {
+    font: 1em Arial,sans-serif;
+    color: #f1f1f1;
+    background-color: #5f2208;
+}
+
+.logoIcon {
+    width: 8%;
+    padding: 0 .5em 0 .25em;
+}
+
+#cForm {
+    margin: 1em 0;
+}
+
+#cForm fieldset {
+    border: 1px solid #8e6108;
+    border-radius: .5rem;
+    padding: 1rem 1.5rem;
+}
+
+#cForm legend {
+    font-size: 1.6rem;
+    font-weight: bold;;
+    padding: 0 .5rem 0 2.25rem;
+    background: url(../images/favicon.png) no-repeat;
+    background-size: contain;
+}
+
+#cForm label {
+    display: block;
+}
+
+input {
+    padding: .5em;
+    margin-bottom: .75rem;
+    border: solid 1px #2b0e02;
+    border-radius: .5em;
+    display: block;
+    width: 50%;
+}
+
+textarea {
+    font-family: Arial,sans-serif;
+    padding: .5em;
+    border: solid 1px #2b0e02;
+    border-radius: .5em;
+    width: 75%;
+    min-height: 11em;
+}
+
+input[type="submit"] {
+    background-color: #f1c207;
+    border: none;
+    color: #5f2107;
+    margin: 1em 0;
+    padding: .35rem .75rem;
+    width: auto;
+    font-weight: bold;
+}
+
+

@@ -1,0 +1,13 @@
+1- Why would you create a loop in Python with the while keyword rather than the for keyword?
+
+- Answer: The while keyword allows you to create a loop that continues until the program arrives at a certain state.
+
+2- In Python, which keyword can you use to create a loop?
+
+- Answer: for
+In Python, you can use a `for` statement to loop through each item in a list.
+
+3- What is another term for code that iterates?
+
+- Answer: a loop
+Code that iterates is often described as a loop, because the process moves from beginning to end and then starts over again at the beginning

@@ -1,0 +1,45 @@
+1- Which of the following is NOT a purpose for creating templates?
+
+- Answer: To document the creative process.
+
+2- When deciding on what breakpoints to use in your media queries, there's no definitive right or wrong way. However, which of the following guidelines provides the least amount of flexibility?
+
+- Answer: Breakpoints should be based on specific device sizes.
+While this method can be used, deciding on specific device sizes has become harder with the increasing variety of devices. Added a breakpoint when needed, rather than sticking to a specific screen size is usually more realistic.
+
+3- Referencing the following HTML sample, which selector should be used to style the button to ensure that it can be used in multiple components? 
+<div class="module">
+ <span class="btn">Button</span>
+</div>
+
+- Answer: .btn {}
+All of these options are valid but .btn {} is the least specific and does not rely on which HTML element it is applied too or its parent element (unlike all the other options), making it the most flexible.
+
+4- Which of the following is NOT usually included in the base CSS styles?
+
+- Answer: Any styles that require a class.
+Base styles are the general and default styles that affect all or most HTML elements. Using a class-based style means you are adding a specific usage for that style. (e.g. styling all paragraphs vs styling introductory paragraphs)
+
+5- Which of the following is not true of the SMACSS methodology?
+
+- Answer: This methodology should be used exactly as described in the documentation or else the CSS architecture will break.
+SMACSS is not a framework or tool. It just provides guidelines and can be used exactly as described or you can incorporate just the elements that work for your project or work style.
+
+6- Which is of the following is NOT a reason for using class-based CSS?
+
+- Answer: Classes have a higher specificity level than IDs. Using classes only can reduce specificity issues by not using both types of selectors.
+IDs actually have a higher specificity level can classes but the second part of this statement is true.
+
+7- Which of the following is NOT a consideration when defining HTML and CSS formatting rules?
+
+- Answer: What styles should be included in the base styles.
+Defining formatting rules is about how the code looks and making it easy to read. Defining base styles refers to CSS architecture categorization.
+
+8- Setting up your text editor preferences at the beginning of the project can help with consistent code formatting such as tab spacing.
+
+- Answer: TRUE
+While this is not a requirement, setting editor preferences can reduce the amount of time manually make formatting updates.
+
+9- There are different methodologies for defining the stages for building out the CSS architecture but the generally fall into which three stages?
+
+- Answer: 1. Base and default styles 2. Patterns and components 3. Templates

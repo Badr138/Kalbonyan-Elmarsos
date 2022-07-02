@@ -1,0 +1,67 @@
+1- When would a removal of white space be problematic?
+
+- Answer: removing the space after the "if" in if x==1
+
+2- Although Python ignores empty lines, one place where whitespace does make a difference is inside of _____.
+
+- Answer: strings
+
+3- Which expression evaluates to 2?
+
+- Answer: 5 % 3
+
+4- Python treats all numbers the same, regardless of numerical value.
+
+- Answer: FALSE
+
+5- Which string definition results in an error?
+
+- Answer: 'It's 10am'
+
+6- Which of these will not output:
+
+- Answer: print('I'm learning a lot!')
+
+7- Which character starts a comment in Python?
+
+- Answer: #
+
+8- What is the output of the following Python code?
+
+- Answer: Jeff
+
+9- What will the following code print?
+
+- Answer: 9
+
+10- What is the output of this Python code?
+
+- Answer: Jeff
+
+11- Which variable name is valid in Python?
+
+- Answer: account_balance
+
+12- Which data type in Python represents a number with a decimal point?
+
+- Answer: Float
+
+13- How would you fix the following code to return the remainder of 1,000 divided by 300?
+
+- Answer: 1000 % 300
+
+14- What will the following code print?
+
+- Answer: str
+
+15- What operator do you use to assign a value to a variable?
+
+- Answer: equals (=)
+
+16- Which data type is a whole number?
+
+- Answer: int
+
+17- Which variable name is valid in Python?
+
+- Answer: speed_limit

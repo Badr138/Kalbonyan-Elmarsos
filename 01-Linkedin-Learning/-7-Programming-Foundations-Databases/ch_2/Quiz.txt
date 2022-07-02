@@ -1,0 +1,64 @@
+1- If you reference a key from Table A in Table B, what is that value in Table B?
+
+- Answer: a foreign key
+Because it refers to a key in another table, in this context, the value is called a foreign key.
+
+2- In this table, which field is likely to be a good primary key?
+
+- Answer: EmployeeID
+Because each employee is given a different ID number, this value is likely to be unique. So it's a good primary key for this table. Each ID refers to only one employee record.
+
+3- What would be a good name for a table containing customer details and contact information?
+
+- Answer: Customers
+This name is short, descriptive, and uses a pluralized name based on the type of records it contains.
+
+4- In a database where you keep track of records for a school, what tables should you expect to find?
+
+- Answer: Students, Classes, and Grades
+Each of these tables holds a different kind of information, and because the tables can store more than one record, the table names are pluralized.
+
+5- When storing the text Mozambique in a column with a data type of VARCHAR(8), what would be saved in the database?
+
+- Answer: Mozambiq
+This data type can hold at most eight characters, so the remaining two are not stored.
+
+6- When talking about data types, what do you call the group of types that represent text?
+
+- Answer: string types
+There are various kinds of string types to accommodate text of different lengths.
+
+7- To store the value 4:32PM, December 27, 2019, which data type would you use?
+
+- Answer: DATETIME
+This is the correct type, because it includes both a date component and a time component. The other options here do not.
+
+8- Which condition represents a NULL value?
+
+- Answer: a date cell containing no data
+A cell, regardless of its data type, is NULL when it has no value.
+
+9- Which table name follows best practice?
+
+- Answer: CheckDeposits
+This table name correctly uses camel case and a plural form.
+
+10- If you don't use a number type to store numeric data, _____.
+
+- Answer: you need to take additional steps to process the data as a number whenever you use it
+Storing numeric data in numeric data types gives you the ability to work with numbers directly, as you might do when you use mathematical operations in queries.
+
+11- Before you create a database, what do you need to know?
+
+- Answer: all of these answers
+You can't create your database without knowing the basics of the tables, their columns, and how data will be related.
+
+12- Which statement is true regarding composite keys?
+
+- Answer: A composite key is likely useful when there is no primary key.
+When a primary key does not exist, a composite key can be used to uniquely identify and relate a record to other data.
+
+13- When planning a database, what do you start with?
+
+- Answer: an Entity Relationship (ER) diagram
+Using an ER diagram, you can plan out what fields will appear on which tables, and how they're related.

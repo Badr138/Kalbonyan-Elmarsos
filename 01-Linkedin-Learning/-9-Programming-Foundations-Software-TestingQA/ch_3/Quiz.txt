@@ -1,0 +1,23 @@
+1- _____ box testing examines the interaction between the outside and inside of a box.
+
+- Answer: gray
+
+2- Manual testing should be performed based on scenarios in a test plan.
+
+- Answer: TRUE
+
+3- All scenarios from a test plan should be written as UI automation tests.
+
+- Answer: FALSE
+
+4- Integration testing focuses on the _____ between components.
+
+- Answer: interaction
+
+5- What type of testing is done to make sure the software can handle the expected load over a long period of time?
+
+- Answer: endurance testing
+
+6- Security testing is performed to reveal flaws or vulnerabilities that can be exposed in an application by users.
+
+- Answer: TRUE

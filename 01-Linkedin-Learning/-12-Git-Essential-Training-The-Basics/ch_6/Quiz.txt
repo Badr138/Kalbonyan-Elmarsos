@@ -1,0 +1,86 @@
+1- Which would be considered an atomic commit?
+
+- Answer: adding a social media link to the header file included on every page on a website
+In the case several different social media links need to be added, small, incremental changes to the codebase could call for each link change to be its own commit.
+
+2- Which is the correct order of the following actions to commit a single change to the repository? a `git commit`
+b `git diff`
+c edit the file
+d add a multi-line commit message
+e `git add .`
+
+- Answer: c, b, e, a, d
+Steps e and a can be combined with git commit -a, but the proper order is edit, diff, stage, commit, and add a message.
+
+3- If an empty directory requires git init to initialize a repository, what command is required for a non-empty directory?
+
+- Answer: git init
+git init initializes any directory to create a repository by creating the .git directory in the current location, considered the top level of the repository.
+
+4- Assuming all files have been edited, which series of commands will result in four separate commits?
+
+- Answer: git add file1
+	  git commit
+	  git add file2 file3
+	  git commit
+	  git add file4 file6
+	  git commit
+	  git commit -a
+The first three commits include specific files in each in order to stage those files separately. The final commit will include any edited files that have not already been committed.
+
+5- If viewing a diff of an edited file displays a single unchopped line, and edits are highlighted by word instead of by line, which commands were used?
+
+- Answer: on the command line: git diff --color-words In the diff paginator: -S
+Invoking diff with --color-words will highlight changes by word rather than by line. Using -S will toggle line wrapping. Word-wise changes can also be formatted with --word-diff.
+
+6- By using git commit -am, which command has been made redundant?
+
+- Answer: git add
+Using the -a option with git commit skips the staging tree and directly commits all changes, so files do not need to be staged with git add.
+
+7- Which command should precede git commit -a to ensure no unwanted changes will be committed?
+
+- Answer: git status
+git diff and git commit --dry-run can also be used to ensure no unwanted changes will be committed.
+
+8- Which command identifies the hash you can use in git show?
+
+- Answer: git log
+Git's log will list the hash for each commit, allowing the user to quickly identify the SHA for the commit they wish to view.
+
+9- Which command would allow a user to view the changes of a past commit with the SHA that begins with 94ff81a? The command should highlight word changes rather than line changes.
+
+- Answer: git show --color-words 94ff81a
+To view a commit's diff, the git show command is needed. Like git diff, it takes the --color-words option.
+
+10- Why is using a sandbox repository helpful?
+
+- Answer: A sandbox offers a space for trying out changes that might cause errors that are difficult to recover from.
+The purpose of a sandbox is to serve as a space for trial and error, to learn about a behavior or to see if a series of commands will result in the needed or expected outcome.
+
+11- Assume a client wants four changes to their website: 1. Change the price of the blue widget on one page, as well as the description of the widget
+2. Change the price of the green widget on a separate page
+3. Edit the About Us page to remove a paragraph
+4. Add a photo to the home page What is a reasonable number of atomic commits you should make?
+
+- Answer: 5
+One commit for each task is reasonable. Four might be reasonable, but if the first task -- changing the price and description for the blue widget -- were in a single commit and the price change needed to be rolled back, the description change would also end up rolled back.
+12- What is the most likely cause if git status results in the output "Not a Git repository"?
+
+- Answer: There is no .git directory in the current directory or in parent directories.
+Git will check parent directories to confirm the user is not in a subdirectory of a repository.
+
+13- Which will return the diff of the next commit's parent with the commit identified by SHA a8b0cd? Assume the older commit's parent SHA is 682bcd.
+
+- Answer: git diff 682bcd..HEAD
+Two equivalent alternatives are git diff 682bcd.. and git diff a8b0cd^..HEAD. Git will use HEAD if a commit is not specified on one side of the "..", and the caret (^) refers to the SHA's parent commit.
+
+14- What is the result of the following command: git commit -a
+
+- Answer: Git will open a text editor for a commit message and commit all files with changes.
+The core.editor config value will determine which text editor is opened to accept a commit message.
+
+15- What commit message will appear in git log --oneline for a commit if no commit message was provided?
+
+- Answer: The commit will not appear in the log.
+When Git is not provided a commit message, it will abort the commit. Using the "-m" option with empty quotes has the same result as exiting a text editor without providing a message.

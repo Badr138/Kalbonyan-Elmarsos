@@ -1,0 +1,56 @@
+1- Which properties are included in the box model?
+
+- Answer: height, padding, and border
+
+2- Which width specification is relative?
+
+- Answer: 10vw
+
+3- Your page has two consecutive div elements styled per the CSS below. Which statement is true?
+div {
+  display: inline-block;
+  height: 80px;
+}
+
+- Answer: The second div will show to the right of the first div.
+
+4- You change a certain CSS rule in your browser's Developer Tools view. When is this change reflected inside the browser?
+
+- Answer: The change is seen immediately.
+
+5- What is the vertical size of a div element styled with the CSS below, assuming that this div resides within a container whose height is 1000px?
+div {
+  height: 15%;
+  width: 80%;
+  border: 10px dotted red;
+  padding: 10px 30px 20px;
+  margin: 50px 20px;
+}
+
+- Answer: 200px
+
+6- You have two consecutive span elements on your page, and you see a small gap between them. Is it possible to eliminate this gap?
+
+- Answer: The gap can be eliminated by changing the font size of the container element to zero.
+
+7- For the HTML below, you want to keep the "text1" block left-aligned on the page, but keep the "text2" block center-aligned. Which CSS can help with this?
+<div class="container">
+  <p>text1</p>
+  <div class="content">
+    <p>text2</p>
+  </div>
+</div>
+
+- Answer: 
+.content {
+  margin: 0 auto;
+  width: 60%;
+}
+
+8- What is a valid usage of the 'auto' value in a CSS rule?
+
+- Answer: margin: 0 auto;
+
+9- What is a CSS reset?
+
+- Answer: a set of CSS rules that resets all styles to a clean and consistent baseline

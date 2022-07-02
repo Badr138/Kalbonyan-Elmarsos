@@ -1,0 +1,11 @@
+1- When you import a Python module you are importing a collection of classes and/or _____.
+
+- Answer: functions
+
+2- Describe the result of this Python command:  import random as ran
+
+- Answer: imports the module "random" and gives it the name "ran"
+
+3- What's the key difference between a Python package and module?
+
+- Answer: a package can contain several modules

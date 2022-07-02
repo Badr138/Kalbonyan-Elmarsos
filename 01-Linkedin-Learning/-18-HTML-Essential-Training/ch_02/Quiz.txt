@@ -1,0 +1,117 @@
+1- How many elements are there in the following HTML code?
+<h1> The End of the World is Nigh </h1>
+<article> Musings on our Current Social Predicament, by <em> Trans  I. Tory </em> 
+<p> Random content….</p>
+</article>
+
+- Answer: four
+Count the number of "/". There is an opening and closing tag, and together they make one pair.
+
+2- Which code produces the output shown in the image below? 
+
+- Answer: 2<sup><small><small> 5</small></small></sup><sub>8</sub>
+Repetition of the small tag is required to get the size reduction observed.
+
+3- How do we use HTML elements in combination with each other?
+
+-  Answer: <p>Here's some text that <em>should</em> be emphasized.</p>
+Tags need to nest smoothly. The emphasis is inside the paragraph, so the em tags are inside the p tags.
+
+4- Which two elements are used to mark-up subscript and superscript text?
+
+-  Answer: <sub> and <sup>
+<sub> is for subscripts, like numbers in chemical formulas, and <sup> is for superscripts, like footnote markers.
+
+5- Which HTML code snippet produces the output shown in this image? 
+
+- Answer: <p> This is a </p> demonstration <p> of the paragraph <p> tag </p> </p>.
+Count the lines of output.
+
+6- When deciding which headline level to use (h1, h2, h3, h4, h5, h6) which of these statements is true?
+
+- Answer: We should use the level of headline that makes sense, based on the semantic meaning of content.
+Content works best when markup follows meaning.
+
+7- Which markup is correct?
+
+- Answer: <time datetime="2025-10-08">October 8, 2025</time>
+Even when you're presenting a date, you should use the <time> element, with the datetime attribute specifying the formal date.
+
+8- Which tag preserves the spaces, tabs, and line breaks within a piece of text so a poem or piece of code can be presented faithfully?
+
+- Answer: <pre>
+The `<pre>` tag preserves formatting.
+
+9- Which HTML element has the correct structure?
+
+- Answer: <h1>The Headline</h1>
+Elements should have an opening and closing tag, unless they're empty elements, which don't need the closing tag.
+
+10- How does the break tag differ from most other inline and block tags?
+
+- Answer: It does not require a closing tag.
+The break tag can occur all by itself.
+
+11- Why is it important to remember to use closing tags?
+
+- Answer: so it is clear where elements end
+It is easy for most people to forget to close elements.
+
+12- Which elements are used to mark-up code on screen?
+
+- Answer: <pre> and <code>
+The <pre> element is used for listings where line breaks and other white space need to be preserved, while <code> is more for short snippets inside of other content.
+
+13- Which type of element is typically a block?
+
+- Answer: <p>
+The paragraph element creates an area on a page, rather than a portion of a line.
+
+14- What's a true statement about the difference between the <blockquote> element and the <q> element?
+
+- Answer: <blockquote> is a block-level element, while the <q> element is inline, nested inside another block-level element.
+If you want to highlight a short quote, <q> is great to use inside of a paragraph or other block-level element. <blockquote> is for when you want something bigger, to really stand out.
+
+15- In the tag below, what do we call "datetime"? 
+<time datetime="2024-03-07"> March, 7, 2024</time>
+
+- Answer: an attribute
+The element is said to have an attribute.
+
+16- Which is a true statement about HTML lists?
+
+- Answer: Lists can be used to mark up navigation.
+While lists are normally used to present content, their structured and nestable semantics also make them good for navigation menus.
+
+17- Besides visual appearance, what is most important about headline levels?
+
+- Answer: creating an organizational hierarchy
+The hierarchy created by headlines can be used for other purposes.
+
+18- When we want to convey importance, seriousness, or urgency, which element do we use?
+
+- Answer: <strong>
+The <strong> element is meant for importance.
+
+19- Which elements are used to convey meaning, instead of just typesetting convention?
+
+- Answer: <em> and <strong>
+These tags are used to convey a sense of importance or stress when spoken.
+
+20- What code produces the list shown in this image? 
+
+- Answer: 
+<h1> List Demonstration </h1>
+<dl> <dt> object </dt>
+  <dd> an item or actualized concept </dd>
+  <dt> scope </dt>
+  <dd> realm or domain of validity </dd>
+  <dt> tone </dt>
+  <dd> degree of specification adherence </dd>
+</dl>
+By default, the term and the definition appear on different lines.
+
+21- How many different headline levels are displayed in the image shown below? 
+
+- Answer: four
+There are two lines displayed as paragraph elements, while the rest are headlines.

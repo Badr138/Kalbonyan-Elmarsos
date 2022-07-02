@@ -1,0 +1,27 @@
+1- What is a method?
+
+- Answer: an action that an object can perform
+
+2- Your friend claims that she's totally into OOP. What is she talking about?
+
+- Answer: Object Oriented Programming
+
+3- The attributes and methods that define an object are a kind of blueprint called a _____.
+
+- Answer: class
+
+4- When a method is called on an object, Python automatically passes that object as the first argument.
+
+- Answer: TRUE
+
+5- In Python shell you input the command "blue is aqua" and get the result False. What does this tell you?  
+
+- Answer: the names blue and aqua refer to different objects
+
+6- Suppose you create a list object in Python that contains three string values: "Larry" "Curly" and "Moe". What is "Curly" an example of?
+
+- Answer: an immutable object
+
+7- When you change some of the string values within a list object, the ID for the list object does not change. What is this evidence for?
+
+- Answer: Lists are mutable objects.

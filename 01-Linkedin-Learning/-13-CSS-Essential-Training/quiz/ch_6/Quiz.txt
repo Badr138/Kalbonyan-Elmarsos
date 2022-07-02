@@ -1,0 +1,44 @@
+1- What gets reversed when using the flex-wrap: wrap-reverse option?
+
+- Answer: cross start and cross end
+
+2- How does the display: inline-flex option differ from display: flex?
+
+- Answer: It sets the flex container width to be like its content.
+
+3- A flex container is set with a width of 200px and flex-wrap: wrap;. It has 3 flex items set with flex: 1 0 100px;. What is the effective width of the third flex item?
+
+- Answer: 200px
+
+4- You want your flex items to have a maximum width of 300px. Which flex rule will set this?
+
+- Answer: flex: 0 1 300px;
+
+5- What is the benefit of troubleshooting grid issues in Firefox compared to other browsers?
+
+- Answer: Firefox has a dedicated grid visualization tool.
+
+6- Which flexbox alignment option distributes the items evenly across the main axis, with the first item at the start of the axis and the last item at the end?
+
+- Answer: justify-content: space-between;
+
+7- What is the outcome of setting a grid container as an inline-grid?
+
+- Answer: It will display inline next to other inline elements.
+
+8- Your flexbox container is set with the justify-content: space-between; property. Should you be concerned about increasing the padding of the flex items?
+
+- Answer: Yes, large padding values will cause the items to overflow the container.
+
+9- Which statement is true regarding flexboxes?
+
+- Answer: They are used for space distribution across a single axis.
+
+10- When will you want to use an explicit grid and an implicit grid together?
+
+- Answer: when you know the minimum number of grid items, but not the maximum
+
+11- What does the following grid template define, if the grid container is set with a 700px width?
+grid-template-columns: repeat(2, 2fr) 100px repeat(2, 1fr);
+
+- Answer: The first two columns will each be 200px wide, and the last three columns will be 100px.

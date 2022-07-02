@@ -1,0 +1,15 @@
+1- What two types of data are stored in a Python dictionary?
+
+- Answer: keys and values
+
+2- A dictionary can have duplicate keys.
+
+- Answer: FALSE
+
+3- Dictionary values can store more than just strings.
+
+- Answer: TRUE
+
+4- Which statement best describes how data entries are ordered in a Python dictionary?
+
+- Answer: Dictionary entries change order each time you run your program.

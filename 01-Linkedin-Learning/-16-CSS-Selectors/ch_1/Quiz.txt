@@ -1,0 +1,37 @@
+1- What is the correct HTML for the following selector?
+article.col-1.col-end
+
+- Answer: <article class="col-1 col-end">...</article>
+Correct, apply all classes in a single class attribute. Since there are no spaces in this selector, the two classes both apply to the same "article" element.
+
+2- A declaration is the group of styles between the curly brackets.
+
+- Answer: FALSE
+A declaration is a single property-value pair within a declaration block, the group of styles between the curly brackets.
+
+3- Which two terms can be used interchangeably in CSS?
+
+- Answer: property-value pair declaration
+A property-value pair and declaration are interchangeable terms.
+
+4- What does this selector select?
+#warning, .danger, article 
+
+- Answer: selects any element with an id attribute of warning, or any element with a class of danger, or any article element
+Comma-separated selectors are evaluated individually as "or" selectors. This selector elects any element with an "id" attribute of "warning", or any element with a class of "danger", or any "article" element.
+
+5- Describe what this selector selects:
+.primary-color a, a:hover 
+
+- Answer: Selects any a element that is a descendant of any element with a class of primary-color, or any a element which is in a hover state.
+Comma-separated selectors are evaluated individually as "or" selectors. Remember to read selectors from the right, but write them from the left.
+
+6- When referring to simple selectors in CSS, the ID selector starts with _____, the class selector with _____ , and the element selector with _____.
+
+- Answer: ID: #;Class: .;Element: nothing, just the tag name
+ID selectors start with #, classes with a period, and HTML elements with the tag name.
+
+7- IDs can be used _____ per page. Classes can be used _____ per page.
+
+- Answer: once; many times
+IDs may be used one time per page, while classes may be used many times per page.

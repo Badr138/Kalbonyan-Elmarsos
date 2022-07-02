@@ -1,0 +1,13 @@
+1- Just like SOAP and REST APIs, Graph QL returns a rigid structure of data back to client.
+
+- Answer: FALSE
+Unlike regular SOAP or REST APIs, GraphQL gives you the ultimate flexibility in being able to specify in your API requests specifically what data you need and get back exactly that.
+
+2- When using GraphQL, which defines a set of types?
+
+- Answer: schema
+
+3- Data cannot be changed using GraphQL.
+
+- Answer: FALSE
+Besides query, there are two other operation types: mutation, which modifies server-side data, and subscription, which allows for notification of changes to data in realtime.

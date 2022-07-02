@@ -1,0 +1,26 @@
+1- An algorithm that takes eight times longer to operate on a data set that is twice as large is said to be _____ in time.
+
+- Answer: cubic
+
+2- An algorithm that is deterministic _____.
+
+- Answer: always produces the same outputs from a given set of inputs
+
+3- Which classifications apply to Euclid's algorithm for finding the least common denominator?
+
+- Answer: exact and deterministic
+
+4- Which algorithm type derives a new set of data from an existing set of data?
+
+- Answer: a computational algorithm
+A computational algorithm uses calculations to derive and output new data from another set of input data.
+
+5- The measurement of algorithm performance is dependent on which criteria?
+
+- Answer: the input data
+The measurement of performance for an algorithm is dependent on the input data and varies as the input size grows.
+
+6- What is the purpose of an algorithm?
+
+- Answer: to solve a specific problem with a sequential set of steps
+An algorithm is used to solve a specific problem by following a sequential set of steps.

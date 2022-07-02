@@ -1,0 +1,39 @@
+1- Which database is often used in a big data context?
+
+- Answer: Hadoop
+Hadoop and Spark are often used for big data applications.
+
+2- Microsoft Access is generally considered a(n) _____ database platform.
+
+- Answer: desktop
+Desktop databases are typically hosted on a workstation rather than a dedicated server, and they're designed to support a few to a few hundred users.
+
+3- Relational databases can store all of these except what?
+
+- Answer: graph data
+Some NoSQL databases are designed to store data arranged as graphs rather than in relations.
+
+4- A stored procedure is _____.
+
+- Answer: a predefined query or statement
+Stored procedures are queries that are stored on the server, and they can be called by developers or users in their queries.
+
+5- An index _____.
+
+- Answer: helps to increase the speed of lookups using a particular column at the cost of speed while modifying records
+As with denormalization, indexes offer a trade off.
+
+6- What is it called when a malicious user tries to change the way a SQL statement works by entering their own SQL?
+
+- Answer: injection
+This kind of attack involves someone injecting their own code into an application.
+
+7- If you store certain kinds of information, your database may be subject to certain compliance regulations.
+
+- Answer: TRUE
+If you store personally identifiable information (PII), health information, or some other kinds of information, your database may be subject to various regulations. Be sure to do your research and stay in compliance!
+
+8- What is a database transaction?
+
+- Answer: a group of statements that runs or fails as a whole
+Transactions combine multiple statements into a single logical block, where one failing statement rolls back the entire action.

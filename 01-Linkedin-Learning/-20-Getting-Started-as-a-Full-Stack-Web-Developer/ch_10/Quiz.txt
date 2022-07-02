@@ -1,0 +1,14 @@
+1- According to this video, what's the best way to get to know the people who create an open-source technology?
+
+- Answer: Help to create the technology.
+By contributing to an open-source project, you get to know both the technology and the people who create it.
+
+2- You copied and pasted some code into your program without any changes; it doesn't work. What's a likely reason?
+
+- Answer: Your program uses different variable names from the copied code.
+Whenever you copy code, you have to adapt it to your program, including the variable names.
+
+3- Why shouldn't your first post in a technology forum be, "May I ask a question?"
+
+- Answer: Developers see this question as a waste of time.
+Developers' time is scarce (and expensive!): They tend to prefer you get right to the point.

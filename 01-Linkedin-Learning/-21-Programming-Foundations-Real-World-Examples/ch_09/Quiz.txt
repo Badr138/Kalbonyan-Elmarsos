@@ -1,0 +1,11 @@
+1- When writing if/elif chains, the most restrictive conditions should _____.
+
+- Answer: go near the top of the top of the chain
+
+2- Python doesn't natively include a switch structure like Java or C, so how can you emulate switch-like behavior? 
+
+- Answer: Use a dictionary.
+
+3- Why is a dictionary often better to use than a long if/elif chain?
+
+- Answer: A dictionary uses hashing.

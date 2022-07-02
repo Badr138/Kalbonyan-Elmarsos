@@ -1,0 +1,39 @@
+1- Which type of tag would you not find in the document head?
+
+- Answer: <p>
+The `<p>`tag is used almost exclusively in the body.
+
+2- What are the six major sectioning elements that typically go directly in the <body> element?
+
+- Answer: <aside>, <main>, <article>, <header>, <footer>, <section>
+Yes. These provide the core structure of a tightly structured HTML document.
+
+3- Which type of element would be most appropriate for the blue bar in the image? 
+
+- Answer: header
+A header can be used inside articles and sections.
+
+4- What is the difference between a head element and a header element?
+
+- Answer: The head element contains document metadata, and a header element contains text to be displayed.
+The head element is a document-wide specification, and headers can occur at several locations within the body.
+
+5- Which section of an HTML page should contain metadata?
+
+- Answer: the head
+This data is essential but not displayed.
+
+6- How does the browser know what information to present when it loads a web page?
+
+- Answer: The browser parses an HTML document, which may also include links to other resources, which the browser then downloads and presents.
+Yes. A single HTML document is the foundation for everything else that gets loaded and displayed
+
+7- Which element should you use inside of the <head> element to identify that page when it's bookmarked?
+
+- Answer: <title>
+The title element provides the bookmark information.
+
+8- Which type of element would be most appropriate for the pink box in the image? 
+
+- Answer: aside
+An aside is appropriate for footnotes or diversions from the main topic.

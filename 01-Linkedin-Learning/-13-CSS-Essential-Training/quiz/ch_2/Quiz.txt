@@ -1,0 +1,85 @@
+1- Which CSS will cause your links to have a solid blue background that changes to semitransparent on hover?
+
+- Answer: 
+a:link { background: #0000ff; }
+a:hover { background: rgba(0,0,255,0.5); }
+
+2- Which CSS rule takes precedence over the others listed?
+
+- Answer: div#sidebar2 p {}
+
+3- What will the following selector fail to match on?
+.footer a, button#contact {}
+
+- Answer: 
+<div class="footer">
+  <button type="button">Contact</button>
+</div>
+
+4- The body of your page includes some HTML sections. How will it look with the following CSS applied?
+body {
+  background: #ffffff; /* white */
+}
+section {
+  background: 0000ff; /*blue*/
+  height: 200px;
+}
+
+- Answer: blue sections on a white background
+
+5- Which CSS keyword can you use to override standard source order and specificity rules?
+
+- Answer: !important
+
+6- You can use the _____ pseudo-class to set a different color on a link if it was clicked on.
+
+- Answer: a:visited
+
+7- Which color will look the brightest on your screen, assuming the background is white?
+
+- Answer: background-color: rgba(170,170,170,0.2);
+
+8- Which CSS selector can you use to select all elements on your page associated with the two classes header and clear?
+
+- Answer: .header.clear {}
+
+9- A universal selector is specified using a(n) _____.
+
+- Answer: "*" character
+
+10- Given the following HTML, which selector will fail to select the link element?
+<div id="content" class="show">
+  <div id="header">
+    <p class="clear">Check <a href="page.html">here</a> for details.</p>
+  </div>
+</div>
+
+- Answer: .content p .clear a {}
+
+11- Given the following HTML, which CSS can you use to show all news items in blue, breaking news items in larger font, and the first item highlighted with background color?
+<p id="p1" class="news breaking">text1</p>
+<p id="p2" class="news">text2</p>
+<p id="p3" class="news breaking">text3</p>
+
+- Answer: 
+.news { color: blue; }
+.breaking { font-size: 150%; }
+#p1 { background-color: yellow; }
+
+12- In the following CSS code, 'h1' is the _____, while 'color' is the _____.
+h1 {
+  color: red;
+}
+
+- Answer: selector; property
+
+13- Which W3C status code represents a CSS specification that is fully implemented by modern browsers?
+
+- Answer: Recommendation
+
+14- Are any of the following declarations invalid?
+color: red;   /* declaration A */
+font-size: 1em;   /* declaration B */
+padding: 10px 0;   /* declaration C */
+
+- Answer: All declarations are valid.

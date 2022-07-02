@@ -1,0 +1,21 @@
+1- Planning a CSS architecture often focuses on _____ inheritance and specificity issues.
+
+- Answer: reducing
+
+2- Which of the following is NOT a benefit of using an open source pre-built framework such as Bootstrap or Foundation?
+
+- Answer: Provides one-of-a-kind styles for branding your projects.
+Open source frameworks include customization options but these are available to anyone using the framework so they are not one-of-kind styles.
+
+3- An open source framework such as Bootstrap or Foundation is a collection of pre-packaged and tested HTML, CSS and JavaScript functionality, used to create websites and webapps.
+
+- Answer: TRUE
+
+4- What is the difference between a library and a framework?
+
+- Answer: Both are collections of patterns and reusable components. These two terms are similar and are sometimes used interchangeably.
+
+5- Which of the following is NOT a benefit of using a design system?
+
+- Answer: A design system reduces the amount of people required to work on a project.
+This may be true but you may also find that you may need to hire additional team members if you need specialized help not represented with the current team.

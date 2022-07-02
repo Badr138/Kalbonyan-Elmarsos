@@ -1,0 +1,19 @@
+1- What is NOT a way to use version control?
+
+- Answer: making changes to an image file and saving the new version to the same file
+Without saving previous versions of the file separately, no changes are tracked.
+
+2- How might users make use of Git's version control capabilities?
+
+- Answer: A development team can use Git to evaluate version differences before prior to new changes into the production code base.
+Git's strengths lie in its ability to allow multiple users to contribute to a repository, and the repo owner can easily evaluate proposed changes with Git's tools.
+
+3- Why is Git so much more powerful than earlier version control systems?
+
+- Answer: It is fast, can handle large code bases, and is distributed.
+Torvalds needed Git to work well for Linux, so it needed to be fast, handle the entire kernel base, and be accessible to the open source community.
+
+4- What is the effect if a file in the main repository becomes corrupted?
+
+- Answer: There is no effect on users' local copies.
+Because Git is distributed, the file in users' repositories will be unaffected by any changes to the file in the main repository unless users attempt to retrieve the corrupted file.

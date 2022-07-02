@@ -1,0 +1,62 @@
+1- If you were writing your source code in the JavaScript programming language, what file extension would you use to save your file?
+
+- Answer: .js
+
+2- What is the standard extension to use for a Python source code file?
+
+- Answer: .py
+
+3- If you were developing an application for an iPhone, which IDE would you use?
+
+- Answer: XCode
+
+4- Which IDE feature allows you to get code suggestions while you are typing?
+
+- Answer: IntelliSense
+
+5- Which tool is used to write source code?
+
+- Answer: a text editor
+
+6- Which language does not use a hybrid compiler/interpreter approach?
+
+- Answer: C++
+
+7- Why doesn't a Python file execute when you double-click it?
+
+- Answer: Double-clicking does not run the Python Interpreter on the source code.
+
+8- Which language is considered an interpreted language?
+
+- Answer: JavaScript
+
+9- How would you write the "Hello, world!" program in Python?
+
+- Answer: print("Hello, world!")
+
+10- Source code is written in rich text.
+
+- Answer: FALSE
+
+11- Programming can be defined as: converting ideas into _____ that a computer can understand.
+
+- Answer: instructions
+
+12- Why do computer instructions need to be sequential?
+
+- Answer: The order in which these instructions are executed is important.
+
+13- In programming, a crash is when your program stops early or freezes because something unexpected happened.
+
+- Answer: TRUE
+
+14- Why are there many programming languages?
+
+- Answer: to address many different computing needs
+
+
+
+
+
+
+

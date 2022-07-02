@@ -1,0 +1,52 @@
+1- What will git init write to a directory?
+
+- Answer: A .git directory
+git init initializes the directory with a .git directory containing project-specific files
+
+2- If you have just completed editing two files, what is the result of the following series of commands, executed without any other action? git add . git commit -m "Initial commit" git add . git commit -m "Another commit"
+
+- Answer: Git will stage both files and commit them with the message "Initial commit." The next set of add and commit messages will have no effect on the repository.
+git add . will stage all changed files in the repository, so the Initial commit will commit changes to both edited files. The second set will not change anything, as there will be no changed files to stage or commit.
+
+3- What elements of good practice were ignored in creating this commit message: 
+PS-1024: Extends NLP model
+
+Must confirm with Deep Learning group that model is latest version.
+
+- Answer: not enough detail
+The first line is short, but the following information doesn't actually address what the code change accomplishes. An additional issue is the inclusion of information that should appear in the issue tracking system or task list rather than in a commit message.
+
+4- You decide to start a new project, so you open a command line window and type git init. What issue will you likely encounter?
+
+- Answer: The location of the repository will include unrelated files and directories.
+By not creating a directory for the repository and changing into that directory before typing git init, all the home directory files and any sub-directories created will need to be included in an ignore list for Git. Any new directory created in the home directory going forward will need to be added to that list, as well.
+
+5- Which single-line commit message uses best practices?
+
+- Answer: adds dashboard feature to display client usage log summary as pie chart
+This message is written in present tense, gives an overview of the change made in the commit, stays within character limits, and does not include unnecessary information.
+
+6- Which will output the log for the last two commits that happened before September 10, 2020?
+
+- Answer: git log --until=2020-09-10 -n 2
+The --until option defines the end date for logs to output and -n 2 limits to the two most recent.
+
+7- Which will output the log for all of Karen's commits labeled "refactor" during March 2019?
+
+- Answer: git log --since=2019-03-01 --until=2019-03-31 --author="Karen" --grep="refactor"
+The --since and --until narrow the date, --author defines the commit's author, and --grep will search for all commits that include "refactor" in the description.
+
+8- If you find small tracking files in every directory, what do you know about your version control?
+
+- Answer: The version control is not Git.
+Git does not use small tracking files throughout a repository -- everything is contained within the .git directory in the top-level directory of the repository.
+
+9- How can you recover data from a deleted .git directory?
+
+- Answer: A deleted .git directory's contents cannot be recovered.
+Git keeps all project tracking data in the .git directory, and when it is deleted, all the tracking data goes with it.
+
+10- After editing a file, you use the command git add. What is the result?
+
+- Answer: Error: No files were specified when invoking git add.
+Either the names of files to be added or a period (.) must be passed as an argument to git add so git knows which files to stage.

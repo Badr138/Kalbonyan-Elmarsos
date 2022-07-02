@@ -1,0 +1,23 @@
+1- A queue is a FIFO data structure. What does FIFO stand for? 
+
+- Answer: First In First Out
+
+2- Queues are a built-in Python data type.
+
+- Answer: FALSE
+
+3- What happens if you call a get method on an empty queue?
+
+- Answer: the program will keep running indefinitely
+
+4- If you call a get method on an empty queue, or a put method on a full queue, the Python program will lock up. These situations are also known as _____.
+
+- Answer: blocking
+
+5- Python does not include a built-in data type or module called "stack". How can you create an object with a stack's LastIn-FirstOut behavior?
+
+- Answer: Create a list data structure.
+
+6- A queue object is most efficient for _____ behavior while a list object is most efficient for _____ behavior.
+
+- Answer: FIFO; LIFO

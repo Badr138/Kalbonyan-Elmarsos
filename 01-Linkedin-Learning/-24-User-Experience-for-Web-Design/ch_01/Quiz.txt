@@ -1,0 +1,19 @@
+1- A visitor has reached your website from a search engine. What do you need to consider about the information displayed on the pages?
+
+- Answer: Each page should lay out what the site is about, so visitors can access the relevant information.
+Site taglines, descriptive navigation, headings, and informative pictures orient visitors to the site from each page.
+
+2- How can you keep visitors from leaving your site quickly?
+
+- Answer: All of these answers will have the opposite effect, discouraging visitors from remaining on your site.
+Best practice involves doing the opposite of these answers.
+
+3- You should tailor the content on your site to the group of users _____.
+
+- Answer: you care most about
+It's important to understand your users so you can anticipate their behaviors. Their behaviors form the basis of user-centered design.
+
+4- Which statement is FALSE?
+
+- Answer:  Most of your site visitors have been referred by a friend or colleague.
+The majority of visitors have been referred to your site by search engines or links, not friends or colleagues.

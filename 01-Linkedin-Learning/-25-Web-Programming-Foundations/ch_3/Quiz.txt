@@ -1,0 +1,13 @@
+1- What web browsers should you build your content for?
+
+- Answer: None. The content should work in any application a visitor chooses to use, browser or not.
+
+2- Advanced code editors produce better code.
+
+- Answer: FALSE
+Advanced code editors add features to help you write better code, but in the end the best code editor is the one that works for you.
+
+3- When should you open the browser developer tools?
+
+- Answer: All of these answers
+The code editor is your first stop for development, debugging, and designing in the browser.

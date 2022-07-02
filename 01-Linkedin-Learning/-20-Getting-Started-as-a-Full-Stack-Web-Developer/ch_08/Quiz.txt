@@ -1,0 +1,19 @@
+1- Which of these outcomes is possible if you don't filter user input?
+
+- Answer: all of these answers
+All of these dangerous possibilities (and many more) could result from failing to filter user input.
+
+2- Why didn't links in the navigation bar work on the reserve.php page?
+
+- Answer: They linked to specific points ("anchors") on the page, and those points didn't exist on reserve.php.
+This is correct. When I split the `navbar.php` section off of `index.php`, I didn't notice that those links only had anchors.
+
+3- How did the values input by a site visitor get passed to PHP and then to the database?
+
+- Answer: by translating parts of the $_POST variable into SQL
+Values in HTML `INPUT` fields were passed to PHP through the `$_POST` variable, then PHP sent them to the database in SQL.
+
+4- After breaking the page into pieces, what PHP command in the index.php file pulled them together for display?
+
+- Answer: include
+The `include` command collected the various files so they were "included" as if part of `index.php`.

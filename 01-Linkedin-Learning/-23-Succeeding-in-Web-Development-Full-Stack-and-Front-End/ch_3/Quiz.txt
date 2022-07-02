@@ -1,0 +1,24 @@
+1- What does a domain name server do?
+
+- Answer: It provides a lookup service for names and addresses.
+A domain name server is a bit like an address book or telephone book.
+
+2- Why should you make accessibility a part of your web development strategy?
+
+- Answer: It makes your content easier to use for everyone.
+Improving accessibility is broadly appealing.
+
+3- You have just started work with a team composed of MVC proponents. Your experience is primarily in component-based architecture. How should you proceed?
+
+- Answer: Adapt to the methodology of the new project.
+Your success will depend on your flexibility to different design approaches.
+
+4- Which tool or approach helps manage version control?
+
+- Answer: Git
+Git tracks changes and identifies potential conflicts.
+
+5- Why has designing for the web using CSS changed so radically in the last decade?
+
+- Answer: to accommodate multiple display characteristics
+The use of many different display sizes and aspect ratios has forced a flexible design approach.

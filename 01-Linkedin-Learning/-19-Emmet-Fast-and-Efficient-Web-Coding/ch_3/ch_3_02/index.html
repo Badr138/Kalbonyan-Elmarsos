@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emmet demo | 03-02</title>
+</head>
+<body>
+<!--   .wrapper>.inside>h1+p   -->
+    <div class="wrapper">
+        <div class="inside">
+            <h1></h1>
+            <p></p>
+        </div>
+    </div>
+    
+<!--    .wrapper>article>h1+p^footer>p   -->
+    <div class="wrapper">
+        <article>
+            <h1></h1>
+            <p></p>
+        </article>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+    
+<!--    .wrapper>article>h1>em>a^^p   -->
+    <div class="wrapper">
+        <article>
+            <h1><em><a href=""></a></em></h1>
+            <p></p>
+        </article>
+    </div>
+    
+<!--    (article.one>h1>em)+(article.two>h1.special+p)   -->
+    <article class="one">
+        <h1><em></em></h1>
+    </article>
+    <article class="two">
+        <h1 class="special"></h1>
+        <p></p>
+    </article>
+</body>
+</html>

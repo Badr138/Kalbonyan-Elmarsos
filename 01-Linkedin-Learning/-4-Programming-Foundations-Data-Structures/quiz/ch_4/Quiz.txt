@@ -1,0 +1,56 @@
+1- How do queues differ from stacks?
+
+- Answer: Queues use FIFO and stacks use LIFO.
+
+2- What is wrong with the following Java code?
+import java.util.Stack;
+public class MyClass {
+      public static void main(String args[]) {
+          Stack myStack = new Stack();
+          myStack.push("test");
+          myStack.pop();
+          myStack.pop();
+
+- Answer: It attempts to pop from an empty stack.
+
+3- The following Swift code uses the push and pop functions as in the example. What is the value of SecondPop?
+var deck:Stack=Stack()
+deck.push(item: "Queen: Spades")
+deck.push(item "10: Diamonds")
+deck.push(item: "4: Hearts")
+deck.push(item: "2: Hearts")
+var FirstPop = deck.pop()
+var SecondPop= deck.pop()
+
+- Answer: 4: Hearts
+
+4- In the Swift code func pop()-> String?, what does the question mark mean?
+
+- Answer: The value returned is either a string or nil.
+
+5- Which data structure is most useful for reversing an ordered state or list?
+
+- Answer: a stack
+
+6- What does LIFO stand for?
+
+- Answer: last in first out
+
+7- How are items with the same priority dequeued from priority queues?
+
+- Answer: by FIFO
+
+8- The following Swift code uses the Queue class as in the example. What does the print() function output?
+var yourQueue = Queue()
+yourQueue.enqueue(item: "10")
+yourQueue.enqueue(item: "5")
+yourQueue.enqueue(item: "8")
+var OutZero yourQueue.dequeue()
+var OutOne = yourQueue.dequeue()
+print(yourQueue.peek()!)
+
+- Answer: 8
+
+9- What does a peek() return from a queue?
+
+- Answer: the first item

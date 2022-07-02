@@ -1,0 +1,24 @@
+1- What are three elements found in every properly constructed HTML page?
+
+- Answer: HTML, HEAD, and BODY tags.
+The `HTML` tag encloses the two main sections in every properly constructed `HTML` page, which are indicated by `HEAD` and `BODY` tags. 
+
+2- Which of these CAN'T CSS do?
+
+- Answer: CSS can do all of these things.
+CSS can change a specific tag, or a section of a page, or an entire layout -- and more.
+
+3- Approximately what percent of the population will have trouble with your website if it's not designed with accessibility in mind?
+
+- Answer: 20 percent
+About 20 percent of the population have difficulty using websites that don't take accessibility into account.
+
+4- What do you do to include a YouTube video on a web page?
+
+- Answer: Paste the "Embed" code from its YouTube page into your page.
+The "Embed" code on a video's YouTube page can be copied and pasted onto your own page to make the video appear there.
+
+5- What is "inline CSS"?
+
+- Answer: CSS written as a STYLE attribute inside an HTML tag
+Inline CSS is found as a `STYLE` attribute inside an HTML tag, for example

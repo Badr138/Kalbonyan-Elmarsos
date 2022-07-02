@@ -1,0 +1,87 @@
+1- Which keyword does Python use to define a function?
+
+- Answer: def
+
+2- What does the void keyword mean when it is specified before a function definition?
+
+- Answer: The function does not return a value.
+
+3- What can the following function be used for?
+def mystery(x):
+  if (x % 2 == 0):
+  return("yes")
+  else:
+  return("no")
+
+- Answer: checking whether a number is even or odd
+
+4- Which is not a benefit of functions?
+
+- Answer: Functions eliminate crashes in your code.
+
+5- What will the following code print?
+
+- Answer: This code will not print anything.
+
+6- The code that's contained inside of a function is often called the function's legs.
+
+- Answer: FALSE
+
+7- Why is there no output for this program?
+def goodbye():
+  print("Bye")
+
+- Answer: We never called the goodbye function.
+
+8- Given the following code, how would you call the function?
+
+- Answer: hello("John")
+
+9- What is the issue with this function as defined?
+def double():
+  print(x*2)
+
+- Answer: The number to double is not received.
+
+10- Which Python keyword is used to send back values from a function?
+
+- Answer: return
+
+11- What will the following program print?
+def mult_inv(num):
+  return 1/num
+ result=mult_inv(3)
+ print(result)
+
+- Answer: 0.333333333
+
+12- What is the output of the following program?
+def isEven(num):
+  return num % 2 == 0
+
+ if isEven(3):
+  print("3 is even")
+ else:
+  print("3 is not even")
+
+- Answer: 3 is not even
+
+13- Given the first line of the function definition below, which programming language is this?
+def factorial(number)
+
+- Answer: Ruby
+
+14- Which value is not an argument to the "hello" function?
+def hello(name):
+  print("Hey,", name)
+
+ hello("John")
+ hello("Mya")
+
+- Answer: Hey
+
+15- In this function definition, the variable "name" is _____.
+def hello(name):
+  print("Hey,", name)
+
+- Answer: a parameter

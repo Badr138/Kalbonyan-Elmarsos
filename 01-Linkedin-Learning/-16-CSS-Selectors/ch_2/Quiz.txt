@@ -1,0 +1,89 @@
+1- Describe the CSS relationship between the h2 and button in the diagram shown.
+
+- Answer: general siblings
+Since "h2" and "button" are both children of "main", they are siblings. Since they are not immediately next to each other, they are general siblings.
+
+2- For the provided HTML, which items will be selected by the following selectors: div.b ~ div and div.b + div
+        <div class="a">a
+                <div class="b">b
+                        <div class="c">c</div>
+                        <div class="d">d</div>
+                </div>
+                <div class="e">e</div>
+                <div class="f">f</div>
+        </div>
+
+- Answer: div.b ~ div selects E and F while div.b + div selects only E.
+"div.b ~ div" contains the general sibling selector, so both E and F will be selected. "div.b + div" is the adjacent sibling selector, so only E will be selected.
+
+3- Which HTML structure is a match to this selector?
+nav.mainnav ul li.active a
+
+- Answer: 
+<nav class="mainnav">
+        <h2>Navigation</h2>
+        <ul>
+                <li class="active">
+                        <span><a href="#">link</a></span>
+                </li>
+        </ul>
+</nav>
+Remember that descendent selectors do not imply a parent-child relationship specifically, although this can occur. It's OK to have additional HTML tags in between some elements of the selector.
+
+4- In this code, create a selector to select the first link, but not the second.
+        <ul>
+                <li class="active">
+                        <a href="#">select me</a>
+                </li>
+                <li>
+                        <a href="#">don't select me</a>
+                </li>
+        </ul>
+
+- Answer: .active a
+This selector selects any "a" element which is descended from any element with a class of "active". This would select the first link, but not the second.
+
+5- Selectors are written from right to left, but they are read from left to right.
+
+- Answer: FALSE
+When reading a selector, start from the end and work your way to the beginning, or from right to left. When writing selectors, write them from left to right.
+
+6- Describe the CSS relationship between nav and li in the diagram shown.
+
+- Answer: li is a descendant of nav.
+"li" is a descendant of "nav". There are no other existing CSS relationships to describe this style of relationship.
+
+7- In the HTML below, which div elements are adjacent siblings?
+        <div class="a">a
+                <div class="b">b
+                        <div class="c">c</div>
+                        <div class="d">d</div>
+                </div>
+                <div class="e">e</div>
+                <div class="f">f</div>
+        </div>
+
+- Answer: C and D; B and E; E and F
+Adjacent siblings are those immediately next to each other. Siblings may have children of their own. For that reason, B and E are adjacent siblings, but B and F are general siblings. C and D, and E and F, are also siblings.
+
+8- In this code, write a selector to select the second paragraph.
+        <aside>
+                <h3>Heading</h3>
+                <p>A paragraph.</p>
+                <div>        
+                        <p>Select me.</p>
+                </div>
+        </aside>
+
+- Answer: div > p
+This selector selects any "p" element that is a child of any "div" element.
+
+9- Given the below HTML, what will the selector div > div select?
+        <div class="a">a
+                <div class="b">b
+                        <div class="c">c</div>
+                </div>
+        </div>
+
+- Answer: div.b and div.c
+This selector selects a div child of a div parent. B is a child of A, and C is a child of B. Therefore, "div.b" and "div.c" is the correct answer.

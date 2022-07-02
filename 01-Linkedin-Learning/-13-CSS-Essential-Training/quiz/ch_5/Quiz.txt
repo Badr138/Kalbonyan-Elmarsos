@@ -1,0 +1,41 @@
+1- Use the CSS _____ property on an element to prevent other elements from floating beside it.
+
+- Answer: clear
+
+2- Where will you have little expectation to see that the float property is used?
+
+- Answer: on sites where the grid property is used
+
+3- What are the missing values you need to have in a box model fix?
+html {
+  box-sizing: ???;
+}
+*, *:before, *:after {
+  box-sizing: ???;
+}
+
+- Answer: border-box; inherit
+
+4- The parent container (assigned with the class "parent") of a floating element is showing as collapsed. Which fix will fail to address the problem?
+
+- Answer: 
+.parent {
+  height: auto;
+}
+
+5- While an absolute element is positioned _____, a fixed element is positioned _____.
+
+- Answer: relative to its closest positioned ancestor; relative to the viewport
+
+6- When would you put adjacent text elements in two containers and float them both?
+
+- Answer: when you want to show the elements in two separate columns
+
+7- For the following HTML and CSS, which text will show on top?
+<div class="first">text1</div>
+<div class="second">text2</div>
+<span class="third">text3</span>
+.first { position: relative; top: 30px; }
+.second, .third { float: left; }
+
+- Answer: text1

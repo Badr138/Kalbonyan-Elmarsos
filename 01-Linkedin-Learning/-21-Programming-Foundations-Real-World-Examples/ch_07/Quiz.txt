@@ -1,0 +1,11 @@
+1- A set is a data structure to store a(n) _____ collection of _____.
+
+- Answer: unordered; unique objects
+
+2- You use the union method to combine five sets of data into a single set. What happens to the resulting data?
+
+- Answer: All duplicate data objects have been removed.
+
+3- What does the intersection operator do?
+
+- Answer: Returns the common objects in two sets of data.

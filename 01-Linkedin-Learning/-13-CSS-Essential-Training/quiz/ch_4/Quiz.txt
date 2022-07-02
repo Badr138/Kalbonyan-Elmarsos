@@ -1,0 +1,46 @@
+1- What is an alternate way to define the following CSS rule?
+font-weight: bold;
+
+- Answer: font-weight: 700;
+
+2- You want your styling to be based on a font stack consisting of three fonts. Where should the generic font for your font family be specified?
+
+- Answer: It should be the last one on the list.
+
+3- What is one disadvantage of using a web font service?
+
+- Answer: It is not always a free service.
+
+4- Your CSS is located in the 'css' folder under the root folder. Which is the correct code to add the font file 'my font.woff' located in the 'fonts' folder under the root folder?
+
+- Answer: 
+@font-face {
+  font-family: "my font";
+  src: url("../fonts/my font.woff");
+}
+
+5- How do you add Google fonts to your project?
+
+- Answer: by using an HTML link element referring to a Google-provided CSS
+
+6- Which shorthand font specification is invalid?
+
+- Answer: font: oblique 24px bold "my font", sans-serif;
+
+7- What is the font size of an element in pixels, given that this element's parent has a font size set to 32px and the element's font size is set to 0.5625em?
+
+- Answer: 18px
+
+8- Generally speaking, _____ typefaces are used for formal content, decorative details, and code sections, respectively.
+
+- Answer: serif, script, and monospace
+
+9- You want to reduce an excessive vertical gap between an h1 element and the text below it. Of the different settings you can tweak, which one has no impact?
+
+- Answer: h1 text align
+
+10- Is there any issue with the following CSS rules applied to a paragraph element?
+font-size: 16px;
+line-height: 0.5em
+
+- Answer: Yes, the lines of text may overlap in certain scenarios.

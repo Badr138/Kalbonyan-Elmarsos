@@ -1,0 +1,29 @@
+1- Which of the following is NOT an example of a style guide?
+
+- Answer: browser support information
+
+2- Which of the following is NOT something that would be documented in a framework.
+
+- Answer: budget and timeline
+
+3- Which of the following is NOT true of pattern/component libraries?
+
+- Answer: Must be created after all the designs are approved.
+This is an ongoing process so you can start creating library as soon as any part of the designs are approved and updated as more designs are approved or updated.
+
+4- Which of the following contains examples of categories that can be used to organize design components when taking inventory?
+
+- Answer: all of these answers
+
+5- Which of the following is NOT a consideration for content strategy?
+
+- Answer: Deciding on the logo usage and guidelines.
+
+6- What is the purpose of defining design and development principles?
+
+- Answer: To establish guidelines for creating consistency among the design and codebase.
+
+7- Which of the following is NOT a consideration during the planning process?
+
+- Answer: Deciding on branding colors and other design elements for your project.
+At this stage, high level goals are being hashed out. Specific details come later.

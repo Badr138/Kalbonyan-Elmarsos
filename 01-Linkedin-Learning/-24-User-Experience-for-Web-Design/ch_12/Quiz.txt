@@ -1,0 +1,14 @@
+1- The _____ design principle emphasizes the importance of sites that are easy to learn. It encourages the idea that sites, at their core, should behave like other sites on the web. 
+
+- Answer: standard
+You want your site to behave like other sites on the web, but your content should be unique.
+
+2- How will you know if your design decisions have been a success?
+
+- Answer: if users return to your site
+This is the mark of a successful website.
+
+3- When making any design decision, what is the most important question to ask yourself?
+
+- Answer: Does the decision decision make the experience better for users?
+This is the question at the heart of all user-centric design.

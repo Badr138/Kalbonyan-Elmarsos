@@ -1,0 +1,14 @@
+1- The Adapter pattern is a software design pattern. Which coding format is correct for creating the Adapter pattern?
+
+- Answer: class BirdAdapter implements ToyDuck 
+{ 
+    Bird bird; 
+    public BirdAdapter(Bird bird) 
+    { 
+         this.bird = bird; 
+    } 
+}
+
+2- Design patterns use the Adapter pattern to solve problems with different interface problems. Which action does the Adapter pattern take?
+
+- Answer: The Adapter pattern handles the work of translating the request to a new class.

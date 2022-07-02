@@ -1,0 +1,13 @@
+1- What does the following code do?
+ 
+class Chess(Game): 
+
+- Answer: creates a class called Chess that inherit the methods from the Game class
+
+2- Using a lot of inherited methods will generally make your code larger and harder to update.
+
+- Answer: FALSE
+
+3- An inherited method can be overridden just once.
+
+- Answer: FALSE

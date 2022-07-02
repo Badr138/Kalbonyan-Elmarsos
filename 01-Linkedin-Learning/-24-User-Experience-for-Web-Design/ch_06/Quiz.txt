@@ -1,0 +1,29 @@
+1- Your homepage should combine _____ and _____.
+
+- Answer: descriptive content about who you are; frequent updates
+The homepage must always say what you do and who you are, while frequent updates will keep your content fresh. Find a way to combine the two successfully.
+
+2- How does the five-second test relate to web design?
+
+- Answer: Users should be able to tell what a site is about within five seconds of looking at the homepage.
+You can test your site's homepage by showing it to people for five seconds, and ask whether they get the message you are trying to convey.
+
+3- What is the biggest problem with this splash style homepage? 
+
+- Answer: The homepage does not display the site navigation menu.
+You may want users to engage with the site's search feature, but you should make the navigation menu visible to indicate what the site offers.
+
+4- You are conducting a usability test, asking users to look at your homepage for five seconds, and then asking for their first impressions. After showing them the homepage, what question should you ask them?
+
+- Answer: What is the site about?
+This is one of the key questions to ask users. Remember, you want users to understand what a site is about within five seconds. This question will give you insight into your site's effectiveness.
+
+5- Why should your homepage include a call to action?
+
+- Answer: The homepage is the location where you can most easily influence what visitors do next.
+From the homepage, you should direct visitors to content, or invite them to view your offerings.
+
+6- The homepage should _____
+
+- Answer: all of these answers
+These are all valuable features of the homepage.

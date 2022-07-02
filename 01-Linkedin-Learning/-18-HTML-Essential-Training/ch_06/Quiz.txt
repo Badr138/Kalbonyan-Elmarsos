@@ -1,0 +1,39 @@
+1- How do you create a video element that specifies different resolutions of video that browsers can choose from when loading the video?
+
+- Answer: You can't do this. Instead, the browser adapts to circumstances as needed.
+Sometimes it's better to let the browser adapt rather than specifying everything.
+
+2- Which button should you select to gain access to an embed code for the YouTube video shown? 
+
+- Answer: share
+After pressing this button, you then have the option to obtain an embed code for copying.
+
+3- What should you do to create an audio player with controls?
+
+- Answer: Use the audio element with the controls attribute set to yes.
+Yes. The audio element has controls built in, which you can show just by setting the controls attribute to yes.
+
+4- Which code snippet produces the output in the image below? 
+
+- Answer: <audio controls src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/birds.mp3"></audio>
+There are other attributes that you may specify.
+
+5- What is the drawback of using the HTML video player shown in the image below? 
+
+- Answer: It does not permit adaptive bitrate streaming.
+This is the reason many people use external services to host videos.
+
+6- You can add chapter divisions to videos by _____.
+
+- Answer: referencing a VTT file listing chapters
+HTML doesn't have a chapter division mechanism built into it, but browsers recognize chapters from VTT files.
+
+7- Which tag must you use within a video element to tell the player where to look for captions?
+
+- Answer: <track>
+You must specify the source for the captions in a vtt file.
+
+8- What do embedded YouTube videos, maps, and CodePen demos have in common?
+
+- Answer: All are services you can include in your own pages and sites with embed code based on the iframe element.
+Embed codes built with the iframe element make it easier combine content from other sources into your pages and apps.

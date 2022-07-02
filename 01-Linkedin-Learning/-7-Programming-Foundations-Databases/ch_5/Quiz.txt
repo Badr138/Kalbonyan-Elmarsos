@@ -1,0 +1,132 @@
+1- What is the foreign key in the table created after this command?
+CREATE TABLE Models (
+ModelID INT(6) NOT NULL AUTO_INCREMENT,
+Color INT(6) REFERENCES Colors(ColorID),
+PRIMARY KEY(ModelID)
+);
+
+- Answer: Color
+The "Color" field is the foreign key that references the ColorID field in the other table.
+
+2- Which SQL command will you use to create a new database called "mydb"?
+
+- Answer: CREATE DATABASE mydb;
+The "CREATE DATABASE" command is used to create a new database.
+
+3- Which of these is not an example of a time when you would use an aggregate function?
+
+- Answer: looking up customers with the name Rafael Montresso
+Aggregate functions are used to tell you about certain characteristics of multiple records. Requesting a record by specific field values is not an aggregate operation.
+
+4- Which WHERE condition can you use to find all records containing a first name starting with the letter "A"?
+
+- Answer: WHERE FirstName LIKE "A%";
+The percent symbol is used as a wildcard for anything coming after the letter "A."
+
+5- When using an aggregate function, how many results do you expect?
+
+- Answer: one
+Aggregate functions return one value that describes a set of data.
+
+6- What should come instead of the ??? placeholder for this query to return all fields and records in the table?
+
+- Answer: *
+The asterisk is used as a wildcard to retrieve everything from the given table.
+
+7- In any given query, you can only join together a maximum of two tables.
+
+- Answer: FALSE
+You can join together many tables as long as you tell the database which pairs of values on the tables are intended to match.
+
+8- In order to use records from more than one table in a query, you need to _____ the tables based on some matching criteria.
+
+- Answer: join
+Joining tables allows you to match rows from one table with rows on another table.
+
+9- If a table is set to auto-increment the primary key, you'll need to know the next value and set it manually when you enter a record.
+
+- Answer: FALSE
+When the database automatically increments a key field, you don't need to worry about setting the value. The database will provide the next value in the sequence automatically.
+
+10- When modifying a record, it's a good idea to specify the record _____.
+
+- Answer: as precisely as possible, ideally using the primary key
+If you've designed your database correctly, each record should have a key that uniquely identifies it, making it safe to use that key to modify a record.
+
+11- Which of these search results is in descending order based on the DATE field?
+
+- Answer: This result set is sorted by date, descending. The latest date is at the top, and the earliest is at the bottom.
+
+12- In order to sort results based on a field, that field needs to appear in the final output.
+
+- Answer: FALSE
+A field used for sorting doesn't need to appear in the 'SELECT' clause of the query.
+
+13- A SQL statement that returns requested records from the database is called:
+
+
+- Answer: a SQL query
+All statements return a status when executed, but a query is a special case of statement that returns information you asked for.
+
+14- You can write SQL:
+
+- Answer: all of these answers
+You can write SQL statements in any of these places.
+
+15- Which of these sets of results was probably narrowed down with a WHERE clause?
+
+- Answer: This result set seems to be the result of limiting the search to employees in group 3.
+
+16- You can narrow down the results that a query returns by only asking for results where a _____ matches a given value.
+
+- Answer: field
+In order to reduce the number of records you get back from a query, you can filter the results based on the contents of a field. For example, you might ask the database to show you records for customers who have their 'State' field set to 'California'.
+
+17- Which of these tasks can you accomplish using SQL as a DML?
+
+- Answer: inserting a record into a table
+Inserting a record is a data manipulation task.
+
+18- When first defining a table, what should you specify? (find 3 correct items)
+	A.   the table's name
+	B.   the table padding
+	C.   the fields and type of data they contain
+	D.   the data per cell
+	E.   the primary key and any referential constraints
+
+- Answer: A, C, E
+Without this information, you can't fully define a table.
+
+19- Which sorting option shows dates from latest to earliest?
+
+- Answer: ORDER BY `Date` DESC
+The DESC option will sort in descending order and show the latest dates first.
+
+20- When you use SQL statements to create or modify the structure of a database, what is SQL being used as?
+
+- Answer: a Data Definition Language (DDL)
+As a Data Definition Language, SQL can be used to create and modify the structure of database tables.
+
+21- What is the correct SQL syntax to use when joining tables A and B on their "ID" field?
+
+- Answer: SELECT * FROM A
+	  JOIN B ON A.ID=B.ID
+The join statement specifies the field on which the two tables will be joined.
+
+22- When telling the database that a certain field must not contain an empty value, you say that it is:
+
+- Answer: not null
+For some fields, you might want to prohibit entering records with empty values. By telling the database that the field can't be null, the database will handle this restriction for you.
+
+23- For a table that holds the purchase amounts in a grocery store over time, which query will likely return the highest value?
+
+- Answer: SELECT SUM(amount) FROM purchases;
+The purchase amounts will grow over time and add up to a very large sum.
+
+24- What is the possible issue with this query?
+UPDATE mytable SET price=5;
+
+- Answer: It may update undesired records.
+Without a WHERE condition, this query will update all records including possibly undesired ones.
+
+

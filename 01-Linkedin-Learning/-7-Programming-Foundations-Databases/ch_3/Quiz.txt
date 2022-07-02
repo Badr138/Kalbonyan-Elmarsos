@@ -1,0 +1,57 @@
+1- Which is an example of referential integrity?
+
+- Answer: preventing the user from entering a record that refers to nonexistent data
+If a field in one table refers to a column in another table, you can require that the value you reference exists in that other table before the database will allow you to enter a new record.
+
+2- Defining relationships helps you to do what?
+
+- Answer: all of these answers
+Thinking about relationships between tables can bring you all of these benefits.
+
+3- What is it called if you delete a record and the database goes on and deletes other records associated with that record?
+
+- Answer: a cascading delete
+If configured to do so, a delete operation can cascade across records linked with a relationship.
+
+4- A database must include one or more relationship.
+
+- Answer: FALSE
+You can use tables in a database without defining any relationships.
+
+5- Which diagram shows a one-to-many relationship?
+
+- Answer: This illustrates a one-to-many relationship, connecting one record on the left table with many on the right table.
+
+6- In a one-to-many relationship, the value representing the 'many' side is what?
+
+- Answer: foreign key
+The foreign key points to the primary key for the 'one' side of the relationship.
+
+7- When modeling a many-to-many relationship, how should you name the linking table?
+
+- Answer: with a combination of the names of the tables it's linking
+While it's not enforced by the DBMS, using tables named like this helps to keep queries readable and remind you what tables are for.
+
+8- When you need to create a many-to-many relationship, what do you need to generate?
+
+- Answer: a linking table that has a one-to-many relationship with two or more tables
+By creating a linking table, you can associate many records with many others.
+
+9-Which scenario represents a one-to-many relationship?
+
+- Answer: bank customers linked to their bank accounts
+A certain customer can have multiple accounts, but a certain account can belong to only one customer.
+
+10- Which diagram shows a one-to-one relationship?
+
+- Answer: This illustrates a one-to-one relationship, connecting only one record on the left table with only one record on the right table.
+
+11- A one-to-one relationship _____.
+
+- Answer: allows only one record to be connected to only one other record
+A one-to-one relationship only allows one record to be connected to one other record.
+
+12- Which other table in your database will likely have a one-to-one relationship with the employees table?
+
+- Answer: the badges table
+Every single badge should be associated with a single employee.

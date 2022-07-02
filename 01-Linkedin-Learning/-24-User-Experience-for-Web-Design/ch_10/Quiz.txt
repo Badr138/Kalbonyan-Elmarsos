@@ -1,0 +1,39 @@
+1- Your site uses dedicated pages to host each of its podcasts, but management wants to move all of the podcasts to one page. What is the most compelling reason to remain with the current approach? 
+
+- Answer: As a result of the text descriptions, the site gets more hits from search engines.
+It may be a hassle to keep podcasts on their own page, but search engines struggle to extract meaning from podcasts, videos, and PDFs.
+
+2- What factors should you consider before adding multimedia to your site?
+
+- Answer: all of these answers
+These are all important considerations.
+
+3- Which statement about interactive content is TRUE?
+
+- Answer: All of these answers are true.
+These are all good things to keep in mind when including interactive content on your site.
+
+4- _____ should always match the color scheme, style, and tone of your site.
+
+- Answer: Decorative elements
+Decorative elements include graphics and logos. They should always exist in harmony with your site's content and design.
+
+5- Where should you AVOID using decorative elements on your site?
+
+- Answer: in the body area of your pages
+The body area is where visitors are looking for critical information.
+
+6- You are considering adding multimedia to your site. What question(s) should you ask yourself before proceeding?
+
+- Answer: What visitor need does this multimedia content serve, and is it the best format to meet that need?
+These questions will ensure that your content has a purpose and needs to be on the page
+
+7- You want to incorporate video elements  on your site. Which of these is the best option?
+
+- Answer: video elements with easy-to-interpret play and mute buttons
+Give users the option to watch the multimedia content, especially if it includes sound.
+
+8- Which element is considered 'interactive content'?
+
+- Answer: a click-and-drag element that shows screen brightness for a screen projector
+Users interact with these elements, but you should also include a non-dynamic element that displays the same information.

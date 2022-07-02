@@ -1,0 +1,11 @@
+1- The original creators of design patterns were known as the gang of four. How many design patterns are there?
+
+- Answer: 23
+
+2- Design patterns are about reusing and the design experience. How is the design pattern expressed?
+
+- Answer: It is expressed by a definition, a class diagram, and collected into a catalog of patterns.
+
+3- Design patterns are comprised of object-oriented basics. What are the object-oriented basics?
+
+- Answer: The basics are inheritance, polymorphism, abstraction, and encapsulation.

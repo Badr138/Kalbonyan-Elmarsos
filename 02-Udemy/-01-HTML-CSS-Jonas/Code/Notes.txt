@@ -1,0 +1,61 @@
+1- diffchecker
+
+- https://www.diffchecker.com/
+- مقارنه اكواد ببعضها html
+
+2- markup validation service
+
+- https://validator.w3.org/
+-  تصحيح اكواد ببعضها html
+
+3- squoosh
+- https://squoosh.app/
+- تقليل حجم الصورمع الحفاظ على الجوده وتعديل فى الصور
+
+4- OPen Color
+
+- https://yeun.github.io/open-color/
+- درجه الالوان المختلفه 
+
+5- ionic
+
+- https://ionic.io/ionicons
+- ايقونات للمشروع 
+
+6- uifaces
+
+- https://www.uifaces.co/
+- الصور الرمزية لنماذج التصميم
+----------------------------------
+مواقع الحصول على تصمايم 
+
+5- land-book
+- https://land-book.com/
+
+6- one page love
+- https://onepagelove.com/
+
+7- awwwards.
+- https://www.awwwards.com/
+
+8- screenlane
+- https://screenlane.com/
+
+9- appsignal
+- https://www.appsignal.com/
+
+---------------------------------
+
+ مواقع استضافات للموقع لمشاريعى
+
+1- hover
+
+2- godady
+
+3- hostanger
+
+4- github
+
+5- gitlab
+
+6- Netify

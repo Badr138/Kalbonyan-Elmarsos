@@ -1,0 +1,9 @@
+1- diffchecker
+
+- https://www.diffchecker.com/
+- مقارنه اكواد ببعضها
+
+2- markup validation service
+
+- https://validator.w3.org/
+-  html تصحيح اكواد 

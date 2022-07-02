@@ -1,0 +1,14 @@
+1- Why do developers sometimes use shared code in their programs?
+
+- Answer: It can become tedious to have to rewrite code to solve the same problem over and over.
+Shared code is generally optimized to perform a basic programming task so other developers don't have to write the same code over and over.
+
+2- What do I have to do in order to incorporate a module into a program?
+
+- Answer: import it
+Importing lets the compiler know that I want to reference code that's in a separate file.
+
+3- How is a framework different from a library?
+
+- Answer: A framework essentially defines how you should accomplish a task.
+A framework gives you a structure to use as a starting point and customize.

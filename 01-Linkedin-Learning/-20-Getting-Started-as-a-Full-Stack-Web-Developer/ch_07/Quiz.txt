@@ -1,0 +1,24 @@
+1- Which of these data-exchange formats does NOT restate key names in every record?
+
+- Answer: delimited text
+Delimited text states the keys in the first ("header") row, and not in every row. For example: ` NAME, ADDRESS Anit Spielberg, 123 Fake Street`
+
+2- Assuming you have the right permissions, how can you change the information stored in a SQL database?
+
+- Answer: through all of these
+With the right permissions, it's possible to change the information in a database through all three of these methods.
+
+3- This video's example sent a URL and received a response. What format was that response in?
+
+- Answer: JSON
+The data provider responded with information in JSON format. This is very common for API responses.
+
+4- Where would I go to see the full details of the mysql class in PHP?
+
+- Answer: PHP's official documentation on php.net
+The best place to find complete technical details is usually in the technology's official documentation.
+
+5- Why might a site require you to use an API key to embed their widgets?
+
+- Answer: all of these answers
+These are all reasons why an information source might require you to use an API to get their data

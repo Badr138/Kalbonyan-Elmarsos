@@ -1,0 +1,51 @@
+1- Second Normal Form tells you to _____ in addition to being compliant with First Normal Form.
+
+- Answer: ensure that no non-key field is dependent on only part of a composite key
+Before you get to 2NF, you need to make sure your tables have no repeating groups.
+
+2- If you can figure out the value of one non-key field in a row by looking at another non-key field in that same row, what do you violate?
+
+- Answer: Third Normal Form
+3NF tells you that each field in a row should represent something unique about a record.
+
+3- Which of these tables is in Second Normal Form? Assume that the Class and Date fields are being used as a composite key.
+
+- Answer: This table is in Second Normal Form. No non-key field is dependent on only part of the key.
+
+4- In order to put a database into Third Normal Form, _____.
+
+- Answer: it must also be in First and Second Normal Form
+Normalization is a progressive process, and higher forms depend on the database being compliant with lower forms as well.
+
+5- What does denormalization refer to?
+
+- Answer: consciously choosing to violate the rules of normality in order to improve speed or for some other business reason
+Denormalization is usually a trade-off between speed and integrity.
+
+6- Which of these tables is in Third Normal Form?
+
+- Answer: This table is in Third Normal Form. Each non-key field describes something unique about a given class based on ClassID.
+
+7- First Normal Form tells you to do what?
+
+- Answer: remove repeating groups
+If you find yourself adding lists of things in individual fields or adding columns to represent additional fields of the same type, you're probably creating repeating groups. And 1NF tells you that you need to refactor your tables if that happens.
+
+8- When might you choose to denormalize a table?
+
+- Answer: Retrieving the data upon request would be slow or burdensome, and you are able to pre-calculate or store a copy of the data somewhere it can be retrieved faster.
+If you need to prioritize the speed of a particular operation, you might choose to denormalize, as long as you remain aware of the threat to database integrity.
+
+9- What does normalization help you do?
+
+- Answer: accomplish all of these goals
+The normalization process provides a framework to think about how data is organized.
+
+10- Which of these tables is in First Normal Form?
+
+- Answer: This table has no repeating groups and is in First Normal Form.
+
+11- A table has two rows with the same values in all columns. Which step can you take to have this table meet the first normal form (1NF) requirements?
+
+- Answer: Add a primary key to the table.
+The primary key will add a unique value for each row, and thus eliminate the repeating duplicate rows issue.

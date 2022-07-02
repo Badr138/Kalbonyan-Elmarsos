@@ -1,0 +1,57 @@
+1- Which selector will select only Patty?
+<ul>
+        <li><a href="" title="friend met">Peter</a></li>
+        <li><a href="" title="friend">Patty</a></li>
+        <li><a href="" title="met contact frilly">Priscilla</a></li>
+</ul>
+
+- Answer: [title="friend"]
+The exact attribute selector looks for an exact match. Therefore "[title="friend"]" matches only Patty, since that is the full value of the title attribute. Peter is not a match since his title attribute has more than "friend" as a value.
+
+2- Which selector will select Patty and Peter?
+<ul>
+        <li><a href="" title="friend met">Peter</a></li>
+        <li><a href="" title="friend">Patty</a></li>
+        <li><a href="" title="met contact frilly">Priscilla</a></li>
+</ul>
+
+- Answer: [title~="friend"]
+The partial attribute selector looks for a partial match. Therefore "[title~="friend"]" matches both Peter and Patty, since "friend" is part (or all) of the value for the "title" attribute in these cases.
+
+3- For the provided HTML, write a selector to choose E only.
+        <div id="a">a
+                <div lang="en-us">b
+                        <div title="c">c</div>
+                        <div data-test="d">d</div>
+                </div>
+                <div dir="ltr">e</div>
+                <div style="color: purple;">f</div>
+        </div>
+
+- Answer: [dir]
+The E "div" has an attribute of dir (direction) that we can leverage to select only this element. "[dir]" selects any element with an attribute of "dir".
+
+4- Write a CSS selector that will select all links that go offsite.
+
+- Answer: [href^="http"]
+The beginning substring selector selects the string "http" at the beginning of the "href" attribute. This should select all links that go offsite, since these links likely start with "http://" or "https://".
+
+5- Which selector will select only Peter?
+<ul>
+        <li><a href="" title="friend met">Peter</a></li>
+        <li><a href="" title="friend">Patty</a></li>
+        <li><a href="" title="met contact frilly">Priscilla</a></li>
+</ul>
+
+- Answer: [title$="met"]
+The ending substring selector selects the string "met" at the end of the "title" attribute. In this case, only Peter is a match.
+
+6- Which selector will select only Priscilla?
+<ul>
+        <li><a href="" title="friend met">Peter</a></li>
+        <li><a href="" title="friend">Patty</a></li>
+        <li><a href="" title="met contact frilly">Priscilla</a></li>
+</ul>
+
+- Answer: [title^="met"]
+The beginning substring selector selects the string "met" at the beginning of the "title" attribute. In this case, only Priscilla is a match.

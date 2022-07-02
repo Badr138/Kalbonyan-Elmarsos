@@ -1,0 +1,54 @@
+1- How does a user gain access to the debugging features of a browser?
+
+- Answer: by accessing developer tools
+There are several ways to inspect the HTML that the browser is interpreting.
+
+2- Which of these attributes is NOT a global attribute?
+
+- Answer: datetime
+Correct. The datetime attribute is only used on the time element, as a way to create a machine-readable date.
+
+3- When should we use an ARIA attribute?
+
+- Answer: any time the existing markup makes things confusing in the accessibility tree
+Exactly. ARIA is used to clarify to the accessibility tree what is happening with a particular element, set of elements, or interface. If something is broken, ARIA can be a way to fix it.
+
+4- What sort of efforts require the use and understanding of ARIA attributes?
+
+- Answer: those involving accessibility issues
+It may be essential to functionality that all users can access specific content.
+
+5- How does the output from the following code appear?
+
+- Answer: 3
+The `<!--` introduces a comment that is not interpreted. The `-->` closes that comment.
+
+6- Which syntax can we use to add comments to our HTML?
+
+- Answer: <!-- comment -->
+Yes, this is the syntax for any comments in an HTML file.
+
+7- Which code should you use to guarantee that the words "Hocus Pocus" are not split by a line break after "Hocus"?
+
+- Answer: Hocus&nbsp;Pocus
+The non-breaking space character entity (&nbsp;) ensures that "Hocus Pocus" will always display on the same line.
+
+8- When might a good time to use Developer Tools?
+
+- Answer: all of these answers
+Correct. Developer Tools give you a powerful close-up behind-the-scenes look at your material.
+
+9- Which code produces the output shown in the image below? 
+
+- Answer: < test >
+There are other ways to produce the same output.
+
+10- In HTML, when would you use a character entity like the one shown below? 
+
+- Answer: any time you want characters to appear as simple text instead of being parsed as code
+Yes. There are several instances where it’s hard to convey certain characters. For example, the characters < and > are hard to present in HTML, as the code thinks they are the beginning of a tag. So instead we use the character entity &lt; for < and the character entity &gt; for >.
+
+11- How does the id attribute differ from the class attribute?
+
+- Answer: An id attribute name may only be used once in a document.
+The id refers to one specific part of a document.

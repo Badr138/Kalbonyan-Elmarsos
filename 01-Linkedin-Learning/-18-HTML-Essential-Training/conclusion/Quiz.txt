@@ -1,0 +1,4 @@
+1- Where can you find the authoritative standard for HTML?
+
+- Answer: the Living Standard
+This is the authoritative document published by WHATWG.

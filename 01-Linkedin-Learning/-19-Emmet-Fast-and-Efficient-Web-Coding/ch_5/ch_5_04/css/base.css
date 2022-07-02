@@ -1,0 +1,58 @@
+/*
+    fonts:
+        font-family: 'Quicksand', sans-serif;
+
+    colors:
+        #3D3D3D (grey)
+        #FFC531 / fda809 (gold)
+        #863310 (brick red)
+        #5f2208 (brick red darker)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #fda809;
+    font-weight: normal;
+    padding-left: 5px;
+    text-transform: capitalize;
+    border-left: .5em solid #fda809; /* bl.5-s#fda809 */
+}
+
+h2 {
+/*   fz2e+c#3 */
+   font-size: 2em;
+   color: #333;
+}
+
+ul {
+   margin: 1em 0 .75em 4em; /* m1e0-.75-4e */
+}
+
+li {
+/*    fz1.6r+lsi+lspi */
+    font-size: 1.6rem;
+    list-style-image: url(../images/hexBullet.png);
+    list-style-position: inside;
+}
+
+
+
+
+

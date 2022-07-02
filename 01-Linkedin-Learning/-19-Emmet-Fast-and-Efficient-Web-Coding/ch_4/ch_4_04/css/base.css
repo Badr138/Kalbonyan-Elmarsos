@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dedede;
+    color: #333;
+    font-family: verdana, sans-serif;
+    font-size: 12px;
+    padding: 2em;
+}
+
+h1 {
+    margin-bottom: .5em;
+}
+
+p {
+    margin-bottom: 1em;
+}

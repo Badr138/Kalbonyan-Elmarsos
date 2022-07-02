@@ -1,0 +1,116 @@
+/*
+Here's the code I use in the snippets.json file:
+
+    "d:g": "display:grid;",
+    "gta": "grid-template-areas:|;",
+    "ga": "grid-area:|;",
+    "gg": "grid-gap:|;",
+    "gtc": "grid-template-columns:|;",
+    "gtr": "grid-template-rows:|;"
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fda809;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fda809;
+}
+
+p {
+    font-size: 1.6em;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* PRODUCT SECTION */
+.products {
+    background-image: url(../images/hexagonTile2.png); /* bgi */
+    background-repeat: repeat-x; /* bgr:rx */
+    min-width: 280px; /* mw280 */
+}
+.products .wrapper {
+    max-width: 1200px; /* maw1200 */
+    margin: auto; /* m:a */
+    width: 90%; /* w90p */
+}
+.products h1 {
+    line-height: 2.5; /* lh2.5 */
+    padding: 0 1em; /* p0-1e */
+    margin: 0 auto; /* m0-a */
+}
+.productJumpMenu {
+    display: flex; /* df */
+    justify-content: space-around; /* jc:sa */
+    align-items: baseline; /*aib*/
+    margin: 0 auto 1em; /* m0-a1e */
+    margin: auto;
+}
+.productJumpMenu li {
+    width: 16%; /* w16p */
+    list-style-type: none; /* lst:n */
+    text-align: center; /* tac */
+    padding: 0.5em; /* p.5 */
+}
+.productJumpMenu a {
+    display: block; /* dp:b */
+}
+.productJumpMenu img {
+    max-height: 60px; /* mah60 */
+    min-height: 80px; /* mh80 */
+}
+
+.productDescrip {
+    max-width: 400px; /* maw400 */
+    margin: 0 auto 2em; /* m0-a2e */
+    text-align: center; /* tac */
+    border-bottom: 1px solid #dedede; /* bb:1-s#de */
+}
+.productDescrip h3 {
+    color: #5f2208; /* c#5f2208 */
+    font-size: 2.4em; /* fz:2.4 */
+}
+.productDescrip p {
+    text-align: left; /* txa:l */
+    margin-bottom: 1.0em; /* mb:1.0 */
+}
+
+@media screen and (min-width:650px) { /* @msa */
+/* PRODUCT SECTION */
+    .productJumpMenu {
+        max-width: 650px; /* maw650 */
+        padding: 2em 0; /* p2e0 */
+    }
+    section.productList {
+        display: -ms-grid;
+        display: grid; /* dg */
+        grid-gap: 20px; /* gg20 */
+        -ms-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* gtc */
+    }
+    .productDescrip {
+        border-bottom: 0; /* bb0 */
+    }
+}
+
+
+

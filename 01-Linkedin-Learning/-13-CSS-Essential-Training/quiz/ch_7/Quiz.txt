@@ -1,0 +1,29 @@
+1- Given the HTML and CSS below, how will the text show, assuming the body's background color is the default one?
+<div>
+  <p>text1</p>
+  <div><p>text2</p></div>
+</div>
+div>p { color: orange; }
+p+div { background: red; }
+
+- Answer: "text1" will be orange on white, and "text2" will be orange on red.
+
+2- What is considered an advanced selector?
+
+- Answer: h1 ~ p {}
+
+3- How can you use a pseudo-class selector to only color the "color me!" text in the following HTML?
+<div>
+  <section><div>leave alone</div></section>
+  <section><div>color me!</div></section>
+</div>
+
+- Answer: section:last-child { color: blue; }
+
+4- Remembering the CSS selector rules can be concatenated, which CSS rule can you apply to the HTML below so that only the "color me!" text is colored?
+<div>
+  <section><div>leave alone</div></section>
+  <section><div>color me!</div></section>
+</div>
+
+- Answer: div > section + section { color: blue; }

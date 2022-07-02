@@ -1,0 +1,100 @@
+/*
+Reference for Animation
+
+Abbreviation	        Rendered html
+anim                    animation:;
+anim-                   animation:name duration timing-function delay iteration-count direction fill-mode;
+animdel                 animation-delay:time;
+animdir                 animation-direction:normal;
+animdir:a               animation-direction:alternate;
+animdir:ar              animation-direction:alternate-reverse;
+animdir:n               animation-direction:normal;
+animdir:r               animation-direction:reverse;
+animdur                 animation-duration:0s;
+animfm                  animation-fill-mode:both;
+animfm:b                animation-fill-mode:backwards;
+animfm:bt, animfm:bh    animation-fill-mode:both;
+animfm:f                animation-fill-mode:forwards;
+animic                  animation-iteration-count:1;
+animic:i                animation-iteration-count:infinite;
+animn                   animation-name:none;
+animps                  animation-play-state:running;
+animps:p                animation-play-state:paused;
+animps:r                animation-play-state:running;
+animtf                  animation-timing-function:linear;
+animtf:cb               animation-timing-function:cubic-bezier(0.1, 0.7, 1.0, 0.1);
+animtf:e                animation-timing-function:ease;
+animtf:ei               animation-timing-function:ease-in;
+animtf:eio              animation-timing-function:ease-in-out;
+animtf:eo               animation-timing-function:ease-out;
+animtf:l                animation-timing-function:linear;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+html {
+   background-image: url(../images/bg.png); 
+}
+
+body {
+    background-image: -webkit-linear-gradient(#fb930c7f, #c9f436cc);
+    background-image: -o-linear-gradient(#fb930c7f, #c9f436cc);
+    background-image: linear-gradient(#fb930c7f, #c9f436cc);
+    height: 100vh;
+    width: 100%;
+}
+
+#bee img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+/* @kf */
+@-webkit-keyframes buzz {
+    from { left: -15%; }
+    to { left: 100%; }
+}
+@-o-keyframes buzz {
+    from { left: -15%; }
+    to { left: 100%; }
+}
+@-moz-keyframes buzz {
+    from { left: -15%; }
+    to { left: 100%; }
+}
+@keyframes buzz {
+    from { left: -15%; }
+    to { left: 100%; }
+}
+
+a#bee {
+    /* p:a+t30p */
+    position: absolute;
+    top: 30%;
+    /* anim */
+    -webkit-animation: buzz;
+    -o-animation: buzz;
+    animation: buzz;
+    /* animdur8s */
+    -webkit-animation-duration: 8s;
+    -o-animation-duration: 8s;
+    animation-duration: 8s;
+    /* animtf:eio */
+    -webkit-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    /* animici */
+    -webkit-animation-iteration-count: infinite;
+    -o-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+
+

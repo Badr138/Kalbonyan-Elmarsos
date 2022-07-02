@@ -1,0 +1,63 @@
+1- What benefit does a linked list provide?
+
+- Answer: underlying memory does not need to be contiguous
+The underlying memory that holds any node data does not need to be contiguous for a linked list.
+
+2- What criteria allows algorithms to execute efficiently?
+
+- Answer: the scenario and available data structure types
+The efficient use of algorithms depends on the scenario, such as a task list that needs to be sorted and the structure type such as an array.
+
+3- In the example linear array, how are the elements referenced using index values? 
+
+- Answer: 0,1,2,3,4
+Elements in an array are referenced by index values, typically starting at 0.
+
+4- Why are hash tables favored over arrays or linked lists?
+
+- Answer: They are faster for item lookups.
+
+5- Why are linked lists sometimes preferred over arrays?
+
+- Answer: They are easier and faster to iterate sequentially.
+
+6- According to the code snippet below, which element will be removed from the queue?
+queue.append(1)
+queue.append(2)
+queue.append(3)
+queue.append(4)
+x = queue.popleft()
+
+- Answer: 1
+A queue uses a first-in, first-out approach. Since element 1 is added first, it is the first to be removed with the pop instruction.
+
+7- Stacks are _____ data structures.
+
+- Answer: last in, first out
+
+8- How does a hash table map index values to data values?
+
+- Answer: Keys are mapped to data values by using a hash to compute an index value.
+A hash table is an associative array where a hash function uses a key to compute an index value and to map to the data value.
+
+9- Which data structure is most analogous to a dictionary?
+
+- Answer: a hash table
+
+10- What does the below code do, when working with a linked list?
+	1 new_node = Node(data)
+	2 new_node.set_next(self.head)
+	3 self.head = new_node
+	4 self.count += 1
+
+- Answer: It add a new node and makes it the head of the list.
+When a new value (node) is inserted in a linked list, the head can point to the new node by using the self.head = new_node code.
+
+11- Which data structure operation would be used for an “undo” command?
+
+- Answer: a stack using last-in, first-out
+A stack is useful in providing backtracking features such as an undo button. An undo button would process the last command used as the first to undo.
+
+12- How many elements are in an 8 by 3 by 2 array?
+
+- Answer: 48

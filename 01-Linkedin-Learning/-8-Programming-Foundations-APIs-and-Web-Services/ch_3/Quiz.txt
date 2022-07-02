@@ -1,0 +1,12 @@
+1- SOAP is preferred for high security and/or complex transactions.
+
+- Answer: TRUE
+SOAP is used for enterprise level web services that require high security and/or complex transactions.
+
+2- What does the acronym WSDL stand for?
+
+- Answer: Web Services Description Language
+
+3- What is one quality of ACID compliance?
+
+- Answer: consistency

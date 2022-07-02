@@ -1,0 +1,27 @@
+1- You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
+
+- Answer: 800 x 400 pixels
+
+2- Which example of hotlinking should be avoided?
+
+- Answer: <img src="http://somesite.com/image.png">
+
+3- Your CSS is defined in the 'global.css' file located under the 'css' folder under your project folder. How should you include this file in your HTML?
+
+- Answer: <link rel="stylesheet" href="css/global.css">
+
+4- In Chrome's Developer Tools view, where are the default styles listed?
+
+- Answer: under the User Agent Stylesheet section on the right
+
+5- While HTML controls document structure, CSS controls _____.
+
+- Aswer: content appearance
+
+6- What is the recommended name you should give the folder that holds your project's images?
+
+- Answer: images
+
+7- What is an advantage of using inline CSS?
+
+- Answer: It can be used to quickly test local CSS overrides.

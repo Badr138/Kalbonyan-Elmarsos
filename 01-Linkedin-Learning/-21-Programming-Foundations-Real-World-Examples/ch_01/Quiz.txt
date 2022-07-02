@@ -1,0 +1,33 @@
+1- In the kitchen a "make omelette" function decreases the stress on your memory by compressing many steps into one idea. In the coding world, what is the advantage of the "make_omelette" function?
+
+- Answer: allows efficient reuse of code
+
+2- Every function must include an output value.
+
+- Answer: FALSE
+
+3- One advantage of functionalizing your code is making efficient reuse of the code. What's another major advantage?
+
+- Answer: a frequently used process can be modified by changing code in just one place
+
+4- What's the central difference between a parameter and an argument?
+
+- Answer: A parameter is the variable used for input values in a function, while an argument is the specific input value passed to the function.
+
+5- This Python code tries to create a function with two parameters:  "def clean_house(tool, tool):"  What is wrong with the code?
+
+- Answer: The two parameters should be uniquely named.
+
+6- Consider the following function: "def clean_house(*tool):"
+
+   How many arguments can be passed to this function?
+
+- Answer: an unlimited number of arguments
+
+7- All parameters and variables defined with a function are considered _____.
+
+- Answer: local variables
+
+8- Functions search for variables in the following order:
+
+- Answer: local variable, then global variable

@@ -1,0 +1,24 @@
+1- What's one way that secrets that are stored in files can be leaked to the public?
+
+- Answer: if the project is managed through Git, but the specific file isn't excluded from the Git repository
+Git projects typically make a (potentially public) copy of everything inside a directory, except for files you specifically exclude.
+
+2- What are the stages in a typical three-stage web-development team workflow?
+
+- Answer: development, staging, production
+A typical three-stage development workflow has individual developers pushing their changes to a staging (pre-release) stage, followed by a manager releasing them online (production).
+
+3- When talking about local and remote files, what's meant by "local"?
+
+- Answer: Files on storage connected to the laptop or desktop you're sitting in front of.
+"Local" files are stored on your local computer and are usually accessed directly through the operating system (e.g. the Mac's Finder).
+
+4- Which of these is the "official" repository for a project, according to Git's documentation?
+
+- Answer: Git doesn't dictate an official repository.
+Git doesn't require developers to name a repository as the "official" one for a project, or they can so indicate any one they choose.
+
+5- In the context of web development, what does "AMP" usually stand for?
+
+- Answer: Apache, MySQL, and PHP
+AMP is an acronym for Apache, MySQL, and PHP (or sometimes Python).

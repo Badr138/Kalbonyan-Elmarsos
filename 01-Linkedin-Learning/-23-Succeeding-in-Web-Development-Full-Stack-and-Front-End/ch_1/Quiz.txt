@@ -1,0 +1,13 @@
+1- Which phrase best exemplifies work as a web developer?
+
+- Answer: continuous learning
+You need to continuously adapt to new technology and ideas as they emerge.
+
+2- Your friend declares that they want to work in front-end development for 10 years to make a good salary, and then move on to a more fun career. What should you tell them? 
+
+- Answer: "Unless you really enjoy coding and solving problems, you'll be miserable."
+Some people might persevere through 10 years, but they will likely be unsuccessful if they are truly miserable.
+
+3- Your colleague focuses exclusively on graphic design for web pages. What type of web developer are they?
+
+- Answer: front-end

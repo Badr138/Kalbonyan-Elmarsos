@@ -1,0 +1,28 @@
+1- Why are tables the preferred option for creating layouts in HTML email?
+
+- Answer: because the other better options are not supported
+HTML for email is stuck using tables until email clients catch up to more recent standards.
+
+2- Which code snippet produces the table in this image? 
+
+- Answer: 
+<table class="styled">
+  <tr> <td> Name </td> <td> Phone </td> </tr>
+  <tr> <td> Bill LaVarre </td> <td> 555-2987 </td> </tr>
+  <tr> <td> Waymon LaVarre </td> <td> 555-4673 </td> </tr> 
+</table>
+
+3- Which output is produced by the following code snippet?
+<table class="styled">
+  <tr> <th>Item</th> <th>Size</th> <th>Color</th> </tr>
+  <tr> <td>Belt</td> <td>M</td> <td>Red</td> </tr>
+  <tr> <td>Scarf</td> <td>L</td> <td>Blue</td> </tr> 
+</table>T
+
+- Answer: 4
+You can enter one row at a time with the <tr> tag.
+
+4- Which table-specific element typically is most deeply nested in table-specific parent elements?
+
+- Answer: <td>
+The td element is usually nested in the table element and also in a tr element.
