@@ -61,7 +61,7 @@ document.querySelector('.check').addEventListener('click', function () {
       // document.querySelector('.score').textContent = 0;
       displayScore(0);
     }
-  } 
+  }
   // // When guess is too high
   // else if (guess > sercretNumber) {
   //   if (score > 1) {
@@ -89,7 +89,7 @@ document.querySelector('.check').addEventListener('click', function () {
 ///////////////////////////////////////
 // Coding Challenge #1
 
-/* 
+/*
 Implement a game rest functionality, so that the player can make a new guess! Here is how:
 
 1. Select the element with the 'again' class and attach a click event handler
